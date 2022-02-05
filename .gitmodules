@@ -1,0 +1,3 @@
+[submodule "badge/third_party/googlefonts/opensans"]
+	path = badge/third_party/googlefonts/opensans
+	url = git@github.com:googlefonts/opensans.git
