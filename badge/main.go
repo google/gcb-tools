@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/googlestaging/gcb-tools/badge/internal/shield_io"
+	"github.com/googlestaging/gcb-tools/badge/internal/json"
 	"github.com/googlestaging/gcb-tools/badge/internal/svg"
 
 	cloudbuild "cloud.google.com/go/cloudbuild/apiv1"
@@ -45,7 +45,7 @@ func main() {
 	defer c.Close()
 
 	r := mux.NewRouter()
-	r.HandleFunc("/{trigger}/status.json", shield_io.Handle(ctx, c))
+	r.HandleFunc("/{trigger}/status.json", json.Handle(ctx, c))
 	r.HandleFunc("/{trigger}/status.svg", svg.Handle(ctx, c, *ttfPath))
 
 	// Determine port for HTTP service.
