@@ -123,10 +123,18 @@ func createSvgInfo(status cloudbuildpb.Build_Status, trigger string, font *truet
 	return info, nil
 }
 
+func http500(err error) func(w http.ResponseWriter, r *http.Request) {
+	return func(w http.ResponseWriter, r *http.Request) {
+		log.Printf("500: %v", err)
+		http.Error(w, http.StatusText(http.StatusInternalServerError), http.StatusInternalServerError)
+	}
+}
+
+//func createTemplate
+
 func Handle(ctx context.Context, c *cloudbuild.Client, fontfile string) func(http.ResponseWriter, *http.Request) {
 	// N.B. Font weight 400 is regular, 700 is bold.
-	templateText := `
-	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{{.Width}}" height="{{.Height}}">
+	templateText := `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{{.Width}}" height="{{.Height}}">
     <style>
         @import url("https://fonts.googleapis.com/css?family=Open+Sans:400");
     </style>
@@ -151,32 +159,21 @@ func Handle(ctx context.Context, c *cloudbuild.Client, fontfile string) func(htt
         <use x="0" y="1" fill="#010101" fill-opacity=".3" xlink:href="#text"/>
         <use x="0" y="0" xlink:href="#text"/>
     </g>
-</svg>	
-	`
+</svg>`
 
 	tmpl, err := template.New("badge").Parse(templateText)
 	if err != nil {
-		log.Printf("500: %v", err)
-		return func(w http.ResponseWriter, r *http.Request) {
-			log.Printf("500: %v", err)
-			http.Error(w, http.StatusText(http.StatusInternalServerError), http.StatusInternalServerError)
-		}
+		return http500(err)
 	}
 
 	fmt.Printf("Loading fontfile %q\n", fontfile)
 	b, err := ioutil.ReadFile(fontfile)
 	if err != nil {
-		return func(w http.ResponseWriter, r *http.Request) {
-			log.Printf("500: %v", err)
-			http.Error(w, http.StatusText(http.StatusInternalServerError), http.StatusInternalServerError)
-		}
+		return http500(err)
 	}
 	font, err := freetype.ParseFont(b)
 	if err != nil {
-		return func(w http.ResponseWriter, r *http.Request) {
-			log.Printf("500: %v", err)
-			http.Error(w, http.StatusText(http.StatusInternalServerError), http.StatusInternalServerError)
-		}
+		return http500(err)
 	}
 	return func(w http.ResponseWriter, r *http.Request) {
 		params := mux.Vars(r)
