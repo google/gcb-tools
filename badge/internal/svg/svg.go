@@ -59,8 +59,8 @@ func createSvgInfo(status cloudbuildpb.Build_Status, trigger string, font *truet
 		MessageColor: "#f00",
 		Width:        100,
 		Height:       20,
-		FontSize:     12,
-		TextY:        13,
+		FontSize:     16,
+		TextY:        16,
 	}
 	switch status {
 	case cloudbuildpb.Build_PENDING, cloudbuildpb.Build_QUEUED, cloudbuildpb.Build_WORKING:
@@ -69,30 +69,42 @@ func createSvgInfo(status cloudbuildpb.Build_Status, trigger string, font *truet
 		info.MessageColor = "#97ca00"
 	}
 
+	// Create a context so we can draw and measure the font metrics.
+	// Alternatively we could grab the height directly and iterate over
+	// the string to have the correct kerning between the runes.
 	ctx := freetype.NewContext()
 	ctx.SetFont(font)
 	ctx.SetFontSize(float64(info.FontSize))
 
+	// Since we can't get this from the context, build up the right scale
+	// so we can query for font metrics.
 	dpi := 72.0
 	scale := fixed.Int26_6(float64(info.FontSize) * dpi * (64.0 / 72.0))
-	vmetric := font.VMetric(scale, 69) // E
-	// Leave 4 padding
-	info.TextY = vmetric.AdvanceHeight.Ceil() - 4
+	vmetric := font.VMetric(scale, 69) // 69 is the letter 'E'
+	// Place the bottom of the text at the line spacing height
+	info.TextY = vmetric.AdvanceHeight.Ceil()
 
+	// Draw the label to see the width.  Add in the front and middle
+	// padding (of 6 and 4 respectively)
 	pair, err := ctx.DrawString(info.LabelText, fixed.Point26_6{})
 	if err != nil {
 		return nil, err
 	}
-	info.LabelWidth = pair.X.Ceil() + 10
+	info.LabelWidth = pair.X.Ceil() + 6 + 4
 
+	// Draw the message to see the width.  Add in the front and middle
+	// padding (of 6 and 4 respectively)
 	pair, err = ctx.DrawString(info.MessageText, fixed.Point26_6{})
 	if err != nil {
 		return nil, err
 	}
-	info.MessageWidth = pair.X.Ceil() + 10
+	info.MessageWidth = pair.X.Ceil() + 6 + 4
+	// Start the message after the 4px padding
 	info.MessageStart = info.LabelWidth + 4
 	// Set width now that we know the right sizes.
 	info.Width = info.LabelWidth + info.MessageWidth
+	// Add in the top and bottom padding of 4px each.
+	info.Height = vmetric.AdvanceHeight.Ceil() + 4 + 4
 
 	return info, nil
 }
@@ -174,7 +186,9 @@ func Handle(ctx context.Context, c *cloudbuild.Client, fontfile string) func(htt
 		w.Header().Set("Date", date)
 		w.Header().Set("Expires", date)
 		if build.Id != "" {
-			w.Header().Set("ETag", build.Id)
+			// Since build ID is unique and can only change with the status, this seems
+			// like a wonderful etag if the client pays attention.
+			w.Header().Set("ETag", build.Id+build.Status.String())
 		}
 
 		err = tmpl.Execute(w, info)
