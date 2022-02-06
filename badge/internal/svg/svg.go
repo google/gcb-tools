@@ -36,20 +36,34 @@ import (
 
 // Metadata used for rendering the SVG template.
 type SvgInfo struct {
-	Height       int
-	Width        int
-	LabelText    string
-	LabelStart   int
-	LabelWidth   int
-	LabelColor   string
+	// Total height and width of the badge
+	Height int
+	Width  int
+
+	// Text to use for the label
+	LabelText string
+	// X position offset to start displaying label text
+	LabelStart int
+	// Total width of the label
+	LabelWidth int
+	// Color to use for the label background
+	LabelColor string
+
+	// Corresponding Message values
 	MessageText  string
 	MessageColor string
 	MessageStart int
 	MessageWidth int
-	FontSize     int
-	TextY        int
+
+	// Font-size to use
+	FontSize int
+	// Y coordinate to draw the text in the label and message
+	TextY int
 }
 
+// Creates a SvgInfo with the pre-defined and derived values for a cloud build
+// build status, trigger name, using the given font.
+// We pass in the font so it can be shared and not recreated on each request.
 func createSvgInfo(status cloudbuildpb.Build_Status, trigger string, font *truetype.Font) (*SvgInfo, error) {
 	info := &SvgInfo{
 		LabelColor:   "#555",

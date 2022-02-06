@@ -39,7 +39,7 @@ type ShieldEndpoint struct {
 func createShieldEndpoint(status cloudbuildpb.Build_Status, trigger string) ShieldEndpoint {
 	response := ShieldEndpoint{
 		SchemaVersion: 1,
-		Label:         "Build: " + trigger,
+		Label:         trigger,
 		Message:       status.String(),
 		Color:         "red",
 	}
