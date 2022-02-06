@@ -29,6 +29,7 @@ import (
 
 	cloudbuild "cloud.google.com/go/cloudbuild/apiv1"
 	"github.com/golang/freetype"
+	"github.com/golang/freetype/truetype"
 	"github.com/gorilla/mux"
 	cloudbuildpb "google.golang.org/genproto/googleapis/devtools/cloudbuild/v1"
 )
@@ -45,24 +46,55 @@ type SvgInfo struct {
 	MessageColor string
 	MessageStart int
 	MessageWidth int
+	FontSize     int
+	TextY        int
 }
 
-func createSvgInfo(status cloudbuildpb.Build_Status, trigger string) SvgInfo {
-	response := SvgInfo{
+func createSvgInfo(status cloudbuildpb.Build_Status, trigger string, font *truetype.Font) (*SvgInfo, error) {
+	info := &SvgInfo{
 		LabelColor:   "#555",
-		LabelText:    "Build: " + trigger,
+		LabelText:    trigger,
+		LabelStart:   6,
 		MessageText:  status.String(),
 		MessageColor: "#f00",
 		Width:        100,
 		Height:       20,
+		FontSize:     12,
+		TextY:        13,
 	}
 	switch status {
 	case cloudbuildpb.Build_PENDING, cloudbuildpb.Build_QUEUED, cloudbuildpb.Build_WORKING:
-		response.MessageColor = "#aaa"
+		info.MessageColor = "#aaa"
 	case cloudbuildpb.Build_SUCCESS:
-		response.MessageColor = "#97ca00"
+		info.MessageColor = "#97ca00"
 	}
-	return response
+
+	ctx := freetype.NewContext()
+	ctx.SetFont(font)
+	ctx.SetFontSize(float64(info.FontSize))
+
+	dpi := 72.0
+	scale := fixed.Int26_6(float64(info.FontSize) * dpi * (64.0 / 72.0))
+	vmetric := font.VMetric(scale, 69) // E
+	// Leave 4 padding
+	info.TextY = vmetric.AdvanceHeight.Ceil() - 4
+
+	pair, err := ctx.DrawString(info.LabelText, fixed.Point26_6{})
+	if err != nil {
+		return nil, err
+	}
+	info.LabelWidth = pair.X.Ceil() + 10
+
+	pair, err = ctx.DrawString(info.MessageText, fixed.Point26_6{})
+	if err != nil {
+		return nil, err
+	}
+	info.MessageWidth = pair.X.Ceil() + 10
+	info.MessageStart = info.LabelWidth + 4
+	// Set width now that we know the right sizes.
+	info.Width = info.LabelWidth + info.MessageWidth
+
+	return info, nil
 }
 
 func Handle(ctx context.Context, c *cloudbuild.Client, fontfile string) func(http.ResponseWriter, *http.Request) {
@@ -70,7 +102,7 @@ func Handle(ctx context.Context, c *cloudbuild.Client, fontfile string) func(htt
 	templateText := `
 	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{{.Width}}" height="{{.Height}}">
     <style>
-        @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+        @import url("https://fonts.googleapis.com/css?family=Open+Sans:400");
     </style>
     <defs>
         <linearGradient id="glow" x2="0" y2="100%">
@@ -84,9 +116,9 @@ func Handle(ctx context.Context, c *cloudbuild.Client, fontfile string) func(htt
 
     <g mask="url(#mask)">
         <rect fill="{{.LabelColor}}" x="0" y="0" width="{{.LabelWidth}}" height="{{.Height}}"/>
-        <text x="{{.LabelStart}}" y="14" font-family="Open Sans" font-size="12" fill="#fff">{{.LabelText}}</text>
+        <text x="{{.LabelStart}}" y="{{.TextY}}" font-family="Open Sans" font-size="{{.FontSize}}" fill="#fff">{{.LabelText}}</text>
         <rect fill="{{.MessageColor}}" x="{{.LabelWidth}}" y="0" width="{{.Width}}" height="{{.Height}}"/>
-        <text x="{{.MessageStart}}" y="14" font-family="Open Sans" font-size="12" fill="#fff">{{.MessageText}}</text>
+        <text x="{{.MessageStart}}" y="{{.TextY}}" font-family="Open Sans" font-size="{{.FontSize}}" fill="#fff">{{.MessageText}}</text>
         <rect fill="url(,1)" x="0" y="0" width="{{.Width}}" height="{{.Height}}"/>
     </g>
     <g fill="#eee">
@@ -129,28 +161,11 @@ func Handle(ctx context.Context, c *cloudbuild.Client, fontfile string) func(htt
 			return
 		}
 
-		info := createSvgInfo(build.Status, trigger)
-		ctx := freetype.NewContext()
-		ctx.SetFont(font)
-		ctx.SetFontSize(12)
-
-		pair, err := ctx.DrawString(info.LabelText, fixed.Point26_6{})
+		info, err := createSvgInfo(build.Status, trigger, font)
 		if err != nil {
 			http.Error(w, http.StatusText(http.StatusNotFound), http.StatusNotFound)
 			return
 		}
-		info.LabelWidth = pair.X.Ceil() + 10
-
-		pair, err = ctx.DrawString(info.MessageText, fixed.Point26_6{})
-		if err != nil {
-			http.Error(w, http.StatusText(http.StatusNotFound), http.StatusNotFound)
-			return
-		}
-		info.LabelStart = 6
-		info.MessageWidth = pair.X.Ceil() + 10
-		info.MessageStart = info.LabelWidth + 4
-		// Set width now that we know the right sizes.
-		info.Width = info.LabelWidth + info.MessageWidth
 
 		w.Header().Set("content-type", "image/svg+xml")
 		w.Header().Set("Cache-Control", "no-cache, no-store, must-revalidate")
