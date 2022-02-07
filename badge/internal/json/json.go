@@ -36,10 +36,10 @@ type ShieldEndpoint struct {
 	Color         string `json:"color"`
 }
 
-func createShieldEndpoint(status cloudbuildpb.Build_Status, trigger string) ShieldEndpoint {
+func createShieldEndpoint(status cloudbuildpb.Build_Status, projectId string) ShieldEndpoint {
 	response := ShieldEndpoint{
 		SchemaVersion: 1,
-		Label:         trigger,
+		Label:         projectId,
 		Message:       status.String(),
 		Color:         "red",
 	}
@@ -55,13 +55,13 @@ func createShieldEndpoint(status cloudbuildpb.Build_Status, trigger string) Shie
 func Handle(ctx context.Context, c *cloudbuild.Client) func(http.ResponseWriter, *http.Request) {
 	return func(w http.ResponseWriter, r *http.Request) {
 		params := mux.Vars(r)
-		trigger := params["trigger"]
-		build, err := client.GetLastBuild(ctx, c, trigger)
+		projectId := params["projectId"]
+		build, err := client.GetLastBuild(ctx, c, projectId)
 		if err != nil {
 			http.Error(w, http.StatusText(http.StatusNotFound), http.StatusNotFound)
 			return
 		}
-		shield := createShieldEndpoint(build.Status, trigger)
+		shield := createShieldEndpoint(build.Status, projectId)
 		json.NewEncoder(w).Encode(shield)
 	}
 }

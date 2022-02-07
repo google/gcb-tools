@@ -62,12 +62,12 @@ type SvgInfo struct {
 }
 
 // Creates a SvgInfo with the pre-defined and derived values for a cloud build
-// build status, trigger name, using the given font.
+// build status, projectId name, using the given font.
 // We pass in the font so it can be shared and not recreated on each request.
-func createSvgInfo(status cloudbuildpb.Build_Status, trigger string, font *truetype.Font) (*SvgInfo, error) {
+func createSvgInfo(status cloudbuildpb.Build_Status, projectId string, font *truetype.Font) (*SvgInfo, error) {
 	info := &SvgInfo{
 		LabelColor:   "#555",
-		LabelText:    trigger,
+		LabelText:    projectId,
 		LabelStart:   6,
 		MessageText:  status.String(),
 		MessageColor: "#f00",
@@ -130,6 +130,15 @@ func http500(err error) func(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+func loadFont(fontfile string) (*truetype.Font, error) {
+	fmt.Printf("Loading fontfile: '%q'\n", fontfile)
+	b, err := ioutil.ReadFile(fontfile)
+	if err != nil {
+		return nil, err
+	}
+	return freetype.ParseFont(b)
+}
+
 //func createTemplate
 
 func Handle(ctx context.Context, c *cloudbuild.Client, fontfile string) func(http.ResponseWriter, *http.Request) {
@@ -166,25 +175,21 @@ func Handle(ctx context.Context, c *cloudbuild.Client, fontfile string) func(htt
 		return http500(err)
 	}
 
-	fmt.Printf("Loading fontfile %q\n", fontfile)
-	b, err := ioutil.ReadFile(fontfile)
+	font, err := loadFont(fontfile)
 	if err != nil {
 		return http500(err)
 	}
-	font, err := freetype.ParseFont(b)
-	if err != nil {
-		return http500(err)
-	}
+
 	return func(w http.ResponseWriter, r *http.Request) {
 		params := mux.Vars(r)
-		trigger := params["trigger"]
-		build, err := client.GetLastBuild(ctx, c, trigger)
+		projectId := params["projectId"]
+		build, err := client.GetLastBuild(ctx, c, projectId)
 		if err != nil {
 			http.Error(w, http.StatusText(http.StatusNotFound), http.StatusNotFound)
 			return
 		}
 
-		info, err := createSvgInfo(build.Status, trigger, font)
+		info, err := createSvgInfo(build.Status, projectId, font)
 		if err != nil {
 			http.Error(w, http.StatusText(http.StatusNotFound), http.StatusNotFound)
 			return

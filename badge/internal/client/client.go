@@ -25,15 +25,15 @@ import (
 	cloudbuildpb "google.golang.org/genproto/googleapis/devtools/cloudbuild/v1"
 )
 
-func GetLastBuild(ctx context.Context, c *cloudbuild.Client, trigger string) (*cloudbuildpb.Build, error) {
+func GetLastBuild(ctx context.Context, c *cloudbuild.Client, projectId string) (*cloudbuildpb.Build, error) {
 	req := &cloudbuildpb.ListBuildsRequest{
-		ProjectId: trigger,
+		ProjectId: projectId,
 	}
 	it := c.ListBuilds(ctx, req)
 	for {
 		resp, err := it.Next()
 		if err == iterator.Done {
-			err := fmt.Errorf("build '%s' not found", trigger)
+			err := fmt.Errorf("build '%s' not found", projectId)
 			return nil, err
 		}
 		if err != nil {
@@ -41,7 +41,7 @@ func GetLastBuild(ctx context.Context, c *cloudbuild.Client, trigger string) (*c
 		}
 
 		log.Printf("Build: %v/%v", resp.ProjectId, resp.Id)
-		if resp.ProjectId == trigger {
+		if resp.ProjectId == projectId {
 			return resp, nil
 		}
 	}

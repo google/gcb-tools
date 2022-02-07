@@ -45,8 +45,8 @@ func main() {
 	defer c.Close()
 
 	r := mux.NewRouter()
-	r.HandleFunc("/{trigger}/status.json", json.Handle(ctx, c))
-	r.HandleFunc("/{trigger}/status.svg", svg.Handle(ctx, c, *ttfPath))
+	r.HandleFunc("/{projectId}/status.json", json.Handle(ctx, c))
+	r.HandleFunc("/{projectId}/status.svg", svg.Handle(ctx, c, *ttfPath))
 
 	// Determine port for HTTP service.
 	port := os.Getenv("PORT")
