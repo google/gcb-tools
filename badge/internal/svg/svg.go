@@ -73,7 +73,7 @@ func createSvgInfo(status cloudbuildpb.Build_Status, projectId string, font *tru
 		MessageColor: "#f00",
 		Width:        100,
 		Height:       20,
-		FontSize:     16,
+		FontSize:     12,
 		TextY:        16,
 	}
 	switch status {
