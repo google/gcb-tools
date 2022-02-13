@@ -26,16 +26,16 @@ steps:
   # Docker Build
   - name: 'gcr.io/cloud-builders/docker'
     args: ['build', '-t', 
-           'us-central1-docker.pkg.dev/$PROJECT_ID/gcb-tools/myimage:$SHORT_SHA', '.']
+           'us-central1-docker.pkg.dev/$PROJECT_ID/gcb-tools/badge:$SHORT_SHA', '.']
 
   # Docker push to Google Artifact Registry
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', 'us-central1-docker.pkg.dev/$PROJECT_ID/gcb-tools/myimage:$SHORT_SHA']
+    args: ['push', 'us-central1-docker.pkg.dev/$PROJECT_ID/gcb-tools/badge:$SHORT_SHA']
 
   # Deploy to Cloud Run
   - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['run', 'deploy', 'helloworld-${SHORT_SHA}', 
-           '--image=us-central1-docker.pkg.dev/$PROJECT_ID/gcb-tools/myimage:$SHORT_SHA', 
+    args: ['run', 'deploy', 'badge-${SHORT_SHA}', 
+           '--image=us-central1-docker.pkg.dev/$PROJECT_ID/gcb-tools/badge:$SHORT_SHA', 
            '--region', 'us-central1', '--platform', 'managed']
 
 # Save test logs to Google Cloud Storage
@@ -43,8 +43,8 @@ artifacts:
   objects:
     location: gs://gcbdash/
     paths:
-      - ${SHORT_SHA}_test_log.xml
+      - badge/${SHORT_SHA}_test_log.xml
 # Store images in Google Artifact Registry
 images:
-  - us-central1-docker.pkg.dev/$PROJECT_ID/gcb-tools/myimage:$SHORT_SHA
+  - us-central1-docker.pkg.dev/$PROJECT_ID/gcb-tools/badge:$SHORT_SHA
 
