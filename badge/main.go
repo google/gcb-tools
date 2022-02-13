@@ -23,8 +23,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/googlestaging/gcb-tools/badge/internal/json"
-	"github.com/googlestaging/gcb-tools/badge/internal/svg"
+	"github.com/google/gcb-tools/badge/internal/json"
+	"github.com/google/gcb-tools/badge/internal/svg"
 
 	cloudbuild "cloud.google.com/go/cloudbuild/apiv1"
 	"github.com/gorilla/mux"

@@ -24,7 +24,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/googlestaging/gcb-tools/badge/internal/client"
+	"github.com/google/gcb-tools/badge/internal/client"
 	"golang.org/x/image/math/fixed"
 
 	cloudbuild "cloud.google.com/go/cloudbuild/apiv1"

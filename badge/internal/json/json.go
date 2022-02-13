@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/googlestaging/gcb-tools/badge/internal/client"
+	"github.com/google/gcb-tools/badge/internal/client"
 
 	cloudbuild "cloud.google.com/go/cloudbuild/apiv1"
 	"github.com/gorilla/mux"
