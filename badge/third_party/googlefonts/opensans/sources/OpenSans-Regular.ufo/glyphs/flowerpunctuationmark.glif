@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="flowerpunctuationmark" format="2">
+  <advance width="1170"/>
+  <unicode hex="2055"/>
+  <outline>
+    <contour>
+      <point x="1101" y="453" type="line"/>
+      <point x="1101" y="574" type="line"/>
+      <point x="728" y="574" type="line"/>
+      <point x="992" y="839" type="line"/>
+      <point x="907" y="924" type="line"/>
+      <point x="642" y="659" type="line"/>
+      <point x="642" y="1033" type="line"/>
+      <point x="520" y="1033" type="line"/>
+      <point x="520" y="659" type="line"/>
+      <point x="257" y="924" type="line"/>
+      <point x="172" y="839" type="line"/>
+      <point x="436" y="574" type="line"/>
+      <point x="61" y="574" type="line"/>
+      <point x="61" y="453" type="line"/>
+      <point x="436" y="453" type="line"/>
+      <point x="172" y="189" type="line"/>
+      <point x="257" y="102" type="line"/>
+      <point x="520" y="367" type="line"/>
+      <point x="520" y="-5" type="line"/>
+      <point x="642" y="-7" type="line"/>
+      <point x="642" y="367" type="line"/>
+      <point x="905" y="104" type="line"/>
+      <point x="992" y="189" type="line"/>
+      <point x="728" y="453" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

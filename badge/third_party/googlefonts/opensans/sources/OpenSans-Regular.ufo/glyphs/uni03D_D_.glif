@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni03DD" format="2">
+  <advance width="954"/>
+  <unicode hex="03DD"/>
+  <anchor x="478" y="-492" name="bottom"/>
+  <anchor x="478" y="1096" name="top"/>
+  <outline>
+    <contour>
+      <point x="343" y="-492" type="line"/>
+      <point x="343" y="373" type="line"/>
+      <point x="657" y="373" type="line"/>
+      <point x="657" y="79" type="line"/>
+      <point x="820" y="79" type="line"/>
+      <point x="820" y="509" type="line"/>
+      <point x="343" y="509" type="line"/>
+      <point x="343" y="957" type="line"/>
+      <point x="885" y="957" type="line"/>
+      <point x="885" y="1096" type="line"/>
+      <point x="177" y="1096" type="line"/>
+      <point x="177" y="-492" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

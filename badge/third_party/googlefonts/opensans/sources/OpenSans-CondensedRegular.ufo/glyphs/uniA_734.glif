@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA734" format="2">
+  <advance width="1621"/>
+  <unicode hex="A734"/>
+  <outline>
+    <contour>
+      <point x="280" y="470" type="line"/>
+      <point x="784" y="470" type="line"/>
+      <point x="546" y="1462" type="line"/>
+      <point x="354" y="1462" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="169" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="596" y="617" type="line"/>
+      <point x="305" y="617" type="line"/>
+      <point x="414" y="1115" type="line" smooth="yes"/>
+      <point x="430" y="1185"/>
+      <point x="443" y="1257"/>
+      <point x="449" y="1320" type="curve"/>
+      <point x="458" y="1256"/>
+      <point x="470" y="1187"/>
+      <point x="485" y="1113" type="curve" smooth="yes"/>
+    </contour>
+    <component base="O" xOffset="504"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>O</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>O</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

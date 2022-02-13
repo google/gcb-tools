@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni214E" format="2">
+  <advance width="575"/>
+  <unicode hex="214E"/>
+  <outline>
+    <contour>
+      <point x="-94" y="0" type="line"/>
+      <point x="327" y="0" type="line"/>
+      <point x="566" y="1099" type="line"/>
+      <point x="421" y="1099" type="line"/>
+      <point x="321" y="633" type="line"/>
+      <point x="62" y="633" type="line"/>
+      <point x="33" y="507" type="line"/>
+      <point x="292" y="507" type="line"/>
+      <point x="209" y="128" type="line"/>
+      <point x="-67" y="128" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

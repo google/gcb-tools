@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macroncomb.sc" format="2">
+  <advance width="1061"/>
+  <anchor x="654" y="1159" name="_top"/>
+  <anchor x="690" y="1419" name="top"/>
+  <outline>
+    <contour>
+      <point x="399" y="1284" type="line"/>
+      <point x="943" y="1284" type="line"/>
+      <point x="971" y="1419" type="line"/>
+      <point x="427" y="1419" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

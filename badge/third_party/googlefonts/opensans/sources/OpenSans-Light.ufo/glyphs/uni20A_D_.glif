@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni20AD" format="2">
+  <advance width="1171"/>
+  <unicode hex="20AD"/>
+  <outline>
+    <contour>
+      <point x="210" y="0" type="line"/>
+      <point x="309" y="0" type="line"/>
+      <point x="309" y="623" type="line"/>
+      <point x="409" y="728" type="line"/>
+      <point x="981" y="0" type="line"/>
+      <point x="1102" y="0" type="line"/>
+      <point x="527" y="729" type="line"/>
+      <point x="1028" y="729" type="line"/>
+      <point x="1028" y="812" type="line"/>
+      <point x="492" y="812" type="line"/>
+      <point x="1087" y="1462" type="line"/>
+      <point x="962" y="1462" type="line"/>
+      <point x="371" y="812" type="line"/>
+      <point x="309" y="812" type="line"/>
+      <point x="309" y="1462" type="line"/>
+      <point x="210" y="1462" type="line"/>
+      <point x="210" y="812" type="line"/>
+      <point x="40" y="812" type="line"/>
+      <point x="40" y="729" type="line"/>
+      <point x="210" y="729" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Currency</string>
+    </dict>
+  </lib>
+</glyph>

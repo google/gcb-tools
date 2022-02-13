@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="undertie" format="2">
+  <advance width="1081"/>
+  <unicode hex="203F"/>
+  <outline>
+    <contour>
+      <point x="342" y="-492" type="curve" smooth="yes"/>
+      <point x="594" y="-492"/>
+      <point x="790" y="-351"/>
+      <point x="941" y="-106" type="curve"/>
+      <point x="873" y="-68" type="line"/>
+      <point x="722" y="-287"/>
+      <point x="550" y="-401"/>
+      <point x="345" y="-401" type="curve" smooth="yes"/>
+      <point x="154" y="-401"/>
+      <point x="2" y="-287"/>
+      <point x="-51" y="-68" type="curve"/>
+      <point x="-133" y="-106" type="line"/>
+      <point x="-57" y="-365"/>
+      <point x="101" y="-492"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

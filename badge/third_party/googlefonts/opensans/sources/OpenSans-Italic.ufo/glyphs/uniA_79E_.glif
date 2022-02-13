@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA79E" format="2">
+  <advance width="1458"/>
+  <unicode hex="A79E"/>
+  <outline>
+    <contour>
+      <point x="577" y="-20" type="curve" smooth="yes"/>
+      <point x="815" y="-19"/>
+      <point x="941" y="83"/>
+      <point x="1033" y="209" type="curve"/>
+      <point x="1041" y="209" type="line"/>
+      <point x="1021" y="0" type="line"/>
+      <point x="1155" y="0" type="line"/>
+      <point x="1465" y="1462" type="line"/>
+      <point x="1296" y="1462" type="line"/>
+      <point x="1110" y="578" type="line" smooth="yes"/>
+      <point x="1062" y="350"/>
+      <point x="904" y="120"/>
+      <point x="607" y="120" type="curve" smooth="yes"/>
+      <point x="421" y="120"/>
+      <point x="327" y="210"/>
+      <point x="327" y="349" type="curve" smooth="yes"/>
+      <point x="327" y="591"/>
+      <point x="508" y="686"/>
+      <point x="796" y="686" type="curve" smooth="yes"/>
+      <point x="847" y="686" type="line"/>
+      <point x="877" y="829" type="line"/>
+      <point x="801" y="829" type="line" smooth="yes"/>
+      <point x="599" y="829"/>
+      <point x="490" y="909"/>
+      <point x="490" y="1062" type="curve" smooth="yes"/>
+      <point x="490" y="1088"/>
+      <point x="494" y="1118"/>
+      <point x="501" y="1148" type="curve" smooth="yes"/>
+      <point x="568" y="1462" type="line"/>
+      <point x="399" y="1462" type="line"/>
+      <point x="334" y="1159" type="line" smooth="yes"/>
+      <point x="326" y="1123"/>
+      <point x="321" y="1086"/>
+      <point x="321" y="1053" type="curve" smooth="yes"/>
+      <point x="321" y="910"/>
+      <point x="395" y="797"/>
+      <point x="579" y="770" type="curve"/>
+      <point x="578" y="762" type="line"/>
+      <point x="332" y="726"/>
+      <point x="152" y="622"/>
+      <point x="152" y="349" type="curve" smooth="yes"/>
+      <point x="152" y="143"/>
+      <point x="285" y="-21"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>U</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

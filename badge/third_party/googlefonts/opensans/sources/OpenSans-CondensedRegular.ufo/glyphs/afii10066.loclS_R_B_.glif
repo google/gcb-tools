@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii10066.loclSRB" format="2">
+  <advance width="911"/>
+  <outline>
+    <contour>
+      <point x="786" y="1566" type="line"/>
+      <point x="379" y="1516"/>
+      <point x="182" y="1437"/>
+      <point x="182" y="1222" type="curve" smooth="yes"/>
+      <point x="182" y="1078"/>
+      <point x="281" y="1004"/>
+      <point x="366" y="941" type="curve"/>
+      <point x="210" y="863"/>
+      <point x="87" y="692"/>
+      <point x="87" y="446" type="curve" smooth="yes"/>
+      <point x="87" y="146"/>
+      <point x="231" y="-20"/>
+      <point x="453" y="-20" type="curve" smooth="yes"/>
+      <point x="679" y="-20"/>
+      <point x="821" y="160"/>
+      <point x="821" y="454" type="curve" smooth="yes"/>
+      <point x="821" y="719"/>
+      <point x="705" y="864"/>
+      <point x="539" y="984" type="curve" smooth="yes"/>
+      <point x="406" y="1080"/>
+      <point x="319" y="1121"/>
+      <point x="319" y="1224" type="curve" smooth="yes"/>
+      <point x="319" y="1359"/>
+      <point x="500" y="1389"/>
+      <point x="803" y="1427" type="curve"/>
+    </contour>
+    <contour>
+      <point x="462" y="867" type="curve"/>
+      <point x="570" y="777"/>
+      <point x="667" y="671"/>
+      <point x="667" y="452" type="curve" smooth="yes"/>
+      <point x="667" y="224"/>
+      <point x="583" y="113"/>
+      <point x="453" y="113" type="curve" smooth="yes"/>
+      <point x="336" y="113"/>
+      <point x="244" y="224"/>
+      <point x="244" y="446" type="curve" smooth="yes"/>
+      <point x="244" y="702"/>
+      <point x="349" y="810"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

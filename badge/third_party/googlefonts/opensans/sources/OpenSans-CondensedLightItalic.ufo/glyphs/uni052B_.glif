@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni052B" format="2">
+  <advance width="1407"/>
+  <unicode hex="052B"/>
+  <anchor x="506" y="-368" name="bottom"/>
+  <anchor x="814" y="1079" name="top"/>
+  <outline>
+    <contour>
+      <point x="-155" y="-368" type="line"/>
+      <point x="-64" y="-368" type="line"/>
+      <point x="13" y="0" type="line"/>
+      <point x="515" y="0" type="line"/>
+      <point x="437" y="-368" type="line"/>
+      <point x="528" y="-368" type="line"/>
+      <point x="623" y="84" type="line"/>
+      <point x="524" y="84" type="line"/>
+      <point x="738" y="1085" type="line"/>
+      <point x="342" y="1085" type="line"/>
+      <point x="277" y="755"/>
+      <point x="163" y="409"/>
+      <point x="3" y="84" type="curve"/>
+      <point x="-60" y="84" type="line"/>
+    </contour>
+    <contour>
+      <point x="98" y="84" type="line"/>
+      <point x="245" y="381"/>
+      <point x="348" y="700"/>
+      <point x="412" y="1002" type="curve"/>
+      <point x="628" y="1002" type="line"/>
+      <point x="432" y="84" type="line"/>
+    </contour>
+    <contour>
+      <point x="591" y="525" type="line"/>
+      <point x="933" y="525" type="line"/>
+      <point x="952" y="608" type="line"/>
+      <point x="608" y="608" type="line"/>
+    </contour>
+    <component base="afii10076" xOffset="780"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>afii10076</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>afii10076</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

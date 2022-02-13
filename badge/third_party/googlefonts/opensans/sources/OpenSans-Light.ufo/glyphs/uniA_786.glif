@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA786" format="2">
+  <advance width="1272"/>
+  <unicode hex="A786"/>
+  <outline>
+    <contour>
+      <point x="113" y="1371" type="line"/>
+      <point x="1217" y="1371" type="line"/>
+      <point x="1217" y="1462" type="line"/>
+      <point x="113" y="1462" type="line"/>
+    </contour>
+    <contour>
+      <point x="879" y="1371" type="curve"/>
+      <point x="857" y="1430" type="line"/>
+      <point x="457" y="1430"/>
+      <point x="133" y="1166"/>
+      <point x="133" y="691" type="curve" smooth="yes"/>
+      <point x="133" y="265"/>
+      <point x="366" y="-20"/>
+      <point x="801" y="-20" type="curve" smooth="yes"/>
+      <point x="958" y="-20"/>
+      <point x="1066" y="3"/>
+      <point x="1153" y="34" type="curve"/>
+      <point x="1153" y="125" type="line"/>
+      <point x="1057" y="94"/>
+      <point x="953" y="72"/>
+      <point x="815" y="72" type="curve" smooth="yes"/>
+      <point x="436" y="72"/>
+      <point x="240" y="313"/>
+      <point x="240" y="699" type="curve" smooth="yes"/>
+      <point x="240" y="1107"/>
+      <point x="500" y="1371"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

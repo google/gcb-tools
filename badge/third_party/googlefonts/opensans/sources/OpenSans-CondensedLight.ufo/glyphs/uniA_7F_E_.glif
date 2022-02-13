@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA7FE" format="2">
+  <advance width="495"/>
+  <unicode hex="A7FE"/>
+  <outline>
+    <contour>
+      <point x="420" y="0" type="line"/>
+      <point x="420" y="61" type="line"/>
+      <point x="296" y="78" type="line"/>
+      <point x="296" y="1818" type="line"/>
+      <point x="420" y="1836" type="line"/>
+      <point x="420" y="1898" type="line"/>
+      <point x="75" y="1898" type="line"/>
+      <point x="75" y="1836" type="line"/>
+      <point x="201" y="1818" type="line"/>
+      <point x="201" y="78" type="line"/>
+      <point x="75" y="61" type="line"/>
+      <point x="75" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

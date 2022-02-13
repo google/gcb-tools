@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2C69" format="2">
+  <advance width="1230"/>
+  <unicode hex="2C69"/>
+  <anchor x="419" y="-380" name="bottom"/>
+  <anchor x="811" y="1462" name="top"/>
+  <outline>
+    <contour>
+      <point x="832" y="-380" type="line"/>
+      <point x="997" y="-380" type="line"/>
+      <point x="1108" y="150" type="line"/>
+      <point x="974" y="150" type="line"/>
+      <point x="685" y="822" type="line"/>
+      <point x="1328" y="1462" type="line"/>
+      <point x="1123" y="1462" type="line"/>
+      <point x="536" y="874" type="line"/>
+      <point x="410" y="742" type="line"/>
+      <point x="563" y="1462" type="line"/>
+      <point x="395" y="1462" type="line"/>
+      <point x="86" y="0" type="line"/>
+      <point x="254" y="0" type="line"/>
+      <point x="377" y="585" type="line"/>
+      <point x="557" y="720" type="line"/>
+      <point x="853" y="0" type="line"/>
+      <point x="913" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

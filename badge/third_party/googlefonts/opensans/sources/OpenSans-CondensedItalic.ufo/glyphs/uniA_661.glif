@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA661" format="2">
+  <advance width="854"/>
+  <unicode hex="A661"/>
+  <outline>
+    <contour>
+      <point x="-143" y="-379" type="line"/>
+      <point x="-1" y="-379" type="line"/>
+      <point x="80" y="0" type="line"/>
+      <point x="612" y="0" type="line"/>
+      <point x="844" y="1096" type="line"/>
+      <point x="698" y="1096" type="line"/>
+      <point x="492" y="128" type="line"/>
+      <point x="195" y="128" type="line"/>
+      <point x="402" y="1096" type="line"/>
+      <point x="255" y="1096" type="line"/>
+      <point x="51" y="128" type="line"/>
+      <point x="-36" y="128" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>u</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

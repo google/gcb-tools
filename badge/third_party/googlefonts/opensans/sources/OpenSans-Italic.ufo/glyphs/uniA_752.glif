@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA752" format="2">
+  <advance width="1295"/>
+  <unicode hex="A752"/>
+  <outline>
+    <contour>
+      <point x="-12" y="315" type="curve"/>
+      <point x="126" y="315" type="line"/>
+      <point x="124" y="326"/>
+      <point x="124" y="349"/>
+      <point x="124" y="373" type="curve" smooth="yes"/>
+      <point x="124" y="490"/>
+      <point x="188" y="577"/>
+      <point x="310" y="577" type="curve" smooth="yes"/>
+      <point x="398" y="577" type="line"/>
+      <point x="429" y="720" type="line"/>
+      <point x="343" y="720" type="line" smooth="yes"/>
+      <point x="85" y="720"/>
+      <point x="-17" y="556"/>
+      <point x="-18" y="375" type="curve" smooth="yes"/>
+      <point x="-18" y="353"/>
+      <point x="-16" y="328"/>
+    </contour>
+    <component base="P" xOffset="136"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>P</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>P</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

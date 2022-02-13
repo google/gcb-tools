@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Sigma" format="2">
+  <advance width="674"/>
+  <unicode hex="03A3"/>
+  <anchor x="224" y="0" name="bottom"/>
+  <anchor x="534" y="1462" name="top"/>
+  <outline>
+    <contour>
+      <point x="-81" y="0" type="line"/>
+      <point x="495" y="0" type="line"/>
+      <point x="511" y="87" type="line"/>
+      <point x="47" y="87" type="line"/>
+      <point x="488" y="758" type="line"/>
+      <point x="320" y="1375" type="line"/>
+      <point x="759" y="1375" type="line"/>
+      <point x="776" y="1462" type="line"/>
+      <point x="235" y="1462" type="line"/>
+      <point x="218" y="1379" type="line"/>
+      <point x="387" y="765" type="line"/>
+      <point x="-68" y="76" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

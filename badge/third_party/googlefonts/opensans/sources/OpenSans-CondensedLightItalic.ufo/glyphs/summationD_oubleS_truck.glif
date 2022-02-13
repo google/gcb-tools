@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="summationDoubleStruck" format="2">
+  <advance width="1270"/>
+  <unicode hex="2140"/>
+  <outline>
+    <contour>
+      <point x="-7" y="-492" type="line"/>
+      <point x="1210" y="-492" type="line"/>
+      <point x="1210" y="-152" type="line"/>
+      <point x="331" y="-152" type="line"/>
+      <point x="943" y="532" type="line"/>
+      <point x="429" y="1350" type="line"/>
+      <point x="1177" y="1350" type="line"/>
+      <point x="1177" y="1462" type="line"/>
+      <point x="18" y="1462" type="line"/>
+      <point x="18" y="1350" type="line"/>
+      <point x="642" y="362" type="line"/>
+      <point x="-7" y="-362" type="line"/>
+    </contour>
+    <contour>
+      <point x="117" y="-385" type="line"/>
+      <point x="234" y="-258" type="line"/>
+      <point x="1108" y="-258" type="line"/>
+      <point x="1108" y="-385" type="line"/>
+    </contour>
+    <contour>
+      <point x="715" y="444" type="line"/>
+      <point x="146" y="1350" type="line"/>
+      <point x="299" y="1350" type="line"/>
+      <point x="807" y="545" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Math</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="equalsuperior" format="2">
+  <advance width="654"/>
+  <unicode hex="207C"/>
+  <outline>
+    <contour>
+      <point x="72" y="1006" type="line"/>
+      <point x="582" y="1006" type="line"/>
+      <point x="582" y="1077" type="line"/>
+      <point x="72" y="1077" type="line"/>
+    </contour>
+    <contour>
+      <point x="72" y="800" type="line"/>
+      <point x="582" y="800" type="line"/>
+      <point x="582" y="871" type="line"/>
+      <point x="72" y="871" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Math</string>
+    </dict>
+  </lib>
+</glyph>

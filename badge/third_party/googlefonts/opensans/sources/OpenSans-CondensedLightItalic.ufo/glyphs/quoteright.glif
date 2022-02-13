@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quoteright" format="2">
+  <advance width="282"/>
+  <unicode hex="2019"/>
+  <outline>
+    <contour>
+      <point x="115" y="995" type="curve"/>
+      <point x="187" y="995" type="line"/>
+      <point x="275" y="1127"/>
+      <point x="357" y="1301"/>
+      <point x="407" y="1439" type="curve"/>
+      <point x="398" y="1462" type="line"/>
+      <point x="307" y="1462" type="line"/>
+      <point x="267" y="1313"/>
+      <point x="193" y="1136"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Quote</string>
+    </dict>
+  </lib>
+</glyph>

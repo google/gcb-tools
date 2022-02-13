@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni02EF" format="2">
+  <advance width="607"/>
+  <unicode hex="02EF"/>
+  <outline>
+    <contour>
+      <point x="278" y="-448" type="line"/>
+      <point x="332" y="-448" type="line"/>
+      <point x="526" y="-61" type="line"/>
+      <point x="441" y="-61" type="line"/>
+      <point x="304" y="-336" type="line"/>
+      <point x="170" y="-61" type="line"/>
+      <point x="82" y="-61" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Modifier</string>
+    </dict>
+  </lib>
+</glyph>

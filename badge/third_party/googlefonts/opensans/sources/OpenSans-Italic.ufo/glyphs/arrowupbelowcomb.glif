@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="arrowupbelowcomb" format="2">
+  <unicode hex="034E"/>
+  <anchor x="-84" y="0" name="_bottom"/>
+  <anchor x="-143" y="-487" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="-255" y="-487" type="line"/>
+      <point x="-130" y="-487" type="line"/>
+      <point x="-80" y="-248" type="line"/>
+      <point x="37" y="-248" type="line"/>
+      <point x="-100" y="-53" type="line"/>
+      <point x="-320" y="-248" type="line"/>
+      <point x="-204" y="-248" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

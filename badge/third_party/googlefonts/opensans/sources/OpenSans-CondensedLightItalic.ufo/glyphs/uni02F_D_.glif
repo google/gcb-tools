@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni02FD" format="2">
+  <advance width="703"/>
+  <unicode hex="02FD"/>
+  <outline>
+    <contour>
+      <point x="-54" y="-389" type="line"/>
+      <point x="424" y="-389" type="line"/>
+      <point x="424" y="-96" type="line"/>
+      <point x="338" y="-96" type="line"/>
+      <point x="338" y="-303" type="line"/>
+      <point x="32" y="-303" type="line"/>
+      <point x="32" y="-96" type="line"/>
+      <point x="-54" y="-96" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>uni02EF</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>uni02EF</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Modifier</string>
+    </dict>
+  </lib>
+</glyph>

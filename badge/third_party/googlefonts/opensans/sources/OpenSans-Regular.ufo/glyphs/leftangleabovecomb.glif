@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="leftangleabovecomb" format="2">
+  <unicode hex="031A"/>
+  <anchor x="345" y="1299" name="_topright"/>
+  <outline>
+    <contour>
+      <point x="-156" y="1926" type="line"/>
+      <point x="-156" y="1810" type="line"/>
+      <point x="228" y="1810" type="line"/>
+      <point x="228" y="1446" type="line"/>
+      <point x="357" y="1446" type="line"/>
+      <point x="357" y="1926" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

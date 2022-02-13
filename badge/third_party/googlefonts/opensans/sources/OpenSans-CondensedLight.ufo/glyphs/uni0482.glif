@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0482" format="2">
+  <advance width="913"/>
+  <unicode hex="0482"/>
+  <outline>
+    <contour>
+      <point x="624" y="1275" type="line"/>
+      <point x="516" y="955" type="line"/>
+      <point x="270" y="1040" type="line"/>
+      <point x="242" y="962" type="line"/>
+      <point x="487" y="877" type="line"/>
+      <point x="341" y="439" type="line"/>
+      <point x="96" y="524" type="line"/>
+      <point x="67" y="446" type="line"/>
+      <point x="313" y="362" type="line"/>
+      <point x="203" y="33" type="line"/>
+      <point x="284" y="4" type="line"/>
+      <point x="395" y="332" type="line"/>
+      <point x="646" y="247" type="line"/>
+      <point x="674" y="324" type="line"/>
+      <point x="422" y="410" type="line"/>
+      <point x="570" y="847" type="line"/>
+      <point x="819" y="762" type="line"/>
+      <point x="849" y="840" type="line"/>
+      <point x="596" y="925" type="line"/>
+      <point x="705" y="1246" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

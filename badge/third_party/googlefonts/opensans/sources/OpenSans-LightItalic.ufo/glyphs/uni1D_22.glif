@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1D22" format="2">
+  <advance width="862"/>
+  <unicode hex="1D22"/>
+  <anchor x="316" y="0" name="bottom"/>
+  <anchor x="547" y="1087" name="top"/>
+  <outline>
+    <contour>
+      <point x="-52" y="0" type="line"/>
+      <point x="678" y="0" type="line"/>
+      <point x="696" y="88" type="line"/>
+      <point x="101" y="88" type="line"/>
+      <point x="875" y="1023" type="line"/>
+      <point x="888" y="1087" type="line"/>
+      <point x="205" y="1087" type="line"/>
+      <point x="185" y="999" type="line"/>
+      <point x="730" y="999" type="line"/>
+      <point x="-39" y="67" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

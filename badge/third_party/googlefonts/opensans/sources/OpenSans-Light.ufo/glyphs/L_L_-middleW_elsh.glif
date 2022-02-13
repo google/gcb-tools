@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="LL-middleWelsh" format="2">
+  <advance width="1520"/>
+  <unicode hex="1EFA"/>
+  <anchor x="760" y="0" name="bottom"/>
+  <anchor x="760" y="1462" name="top"/>
+  <outline>
+    <contour>
+      <point x="676" y="0" type="line"/>
+      <point x="1475" y="0" type="line"/>
+      <point x="1475" y="93" type="line"/>
+      <point x="779" y="93" type="line"/>
+      <point x="779" y="1462" type="line"/>
+      <point x="676" y="1462" type="line"/>
+    </contour>
+    <contour>
+      <point x="207" y="0" type="line"/>
+      <point x="309" y="0" type="line"/>
+      <point x="309" y="1462" type="line"/>
+      <point x="207" y="1462" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>L</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

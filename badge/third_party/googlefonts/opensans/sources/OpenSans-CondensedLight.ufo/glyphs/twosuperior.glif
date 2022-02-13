@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="twosuperior" format="2">
+  <advance width="607"/>
+  <unicode hex="00B2"/>
+  <outline>
+    <contour>
+      <point x="533" y="849" type="line"/>
+      <point x="533" y="922" type="line"/>
+      <point x="147" y="922" type="line"/>
+      <point x="289" y="1103" type="line" smooth="yes"/>
+      <point x="436" y="1286"/>
+      <point x="512" y="1383"/>
+      <point x="512" y="1519" type="curve" smooth="yes"/>
+      <point x="512" y="1653"/>
+      <point x="428" y="1747"/>
+      <point x="278" y="1747" type="curve" smooth="yes"/>
+      <point x="187" y="1747"/>
+      <point x="115" y="1708"/>
+      <point x="56" y="1646" type="curve"/>
+      <point x="102" y="1591" type="line"/>
+      <point x="154" y="1643"/>
+      <point x="209" y="1672"/>
+      <point x="273" y="1672" type="curve" smooth="yes"/>
+      <point x="375" y="1672"/>
+      <point x="427" y="1604"/>
+      <point x="427" y="1514" type="curve" smooth="yes"/>
+      <point x="427" y="1393"/>
+      <point x="346" y="1294"/>
+      <point x="235" y="1153" type="curve" smooth="yes"/>
+      <point x="53" y="920" type="line"/>
+      <point x="53" y="849" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Number</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Small</string>
+    </dict>
+  </lib>
+</glyph>

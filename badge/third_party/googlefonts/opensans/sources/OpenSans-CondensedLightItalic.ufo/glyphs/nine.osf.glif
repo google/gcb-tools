@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nine.osf" format="2">
+  <advance width="820"/>
+  <outline>
+    <contour>
+      <point x="137" y="-369" type="curve" smooth="yes"/>
+      <point x="338" y="-369"/>
+      <point x="470" y="-219"/>
+      <point x="551" y="-49" type="curve" smooth="yes"/>
+      <point x="657" y="166"/>
+      <point x="735" y="496"/>
+      <point x="735" y="795" type="curve" smooth="yes"/>
+      <point x="735" y="1026"/>
+      <point x="646" y="1134"/>
+      <point x="498" y="1134" type="curve" smooth="yes"/>
+      <point x="224" y="1134"/>
+      <point x="106" y="766"/>
+      <point x="106" y="506" type="curve" smooth="yes"/>
+      <point x="106" y="323"/>
+      <point x="186" y="211"/>
+      <point x="327" y="211" type="curve" smooth="yes"/>
+      <point x="441" y="211"/>
+      <point x="529" y="275"/>
+      <point x="590" y="375" type="curve"/>
+      <point x="598" y="375" type="line"/>
+      <point x="495" y="-71"/>
+      <point x="346" y="-283"/>
+      <point x="136" y="-283" type="curve" smooth="yes"/>
+      <point x="78" y="-283"/>
+      <point x="23" y="-271"/>
+      <point x="-8" y="-255" type="curve"/>
+      <point x="-8" y="-346" type="line"/>
+      <point x="26" y="-359"/>
+      <point x="73" y="-369"/>
+    </contour>
+    <contour>
+      <point x="353" y="297" type="curve" smooth="yes"/>
+      <point x="261" y="297"/>
+      <point x="202" y="375"/>
+      <point x="202" y="520" type="curve" smooth="yes"/>
+      <point x="202" y="718"/>
+      <point x="292" y="1048"/>
+      <point x="490" y="1048" type="curve" smooth="yes"/>
+      <point x="585" y="1048"/>
+      <point x="640" y="965"/>
+      <point x="640" y="791" type="curve" smooth="yes"/>
+      <point x="640" y="659"/>
+      <point x="624" y="566"/>
+      <point x="586" y="496" type="curve" smooth="yes"/>
+      <point x="545" y="383"/>
+      <point x="466" y="297"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Number</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Decimal Digit</string>
+    </dict>
+  </lib>
+</glyph>
