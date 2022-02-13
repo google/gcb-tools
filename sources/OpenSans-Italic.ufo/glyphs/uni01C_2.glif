@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni01C2" format="2">
+  <advance width="1052"/>
+  <unicode hex="01C2"/>
+  <anchor x="407" y="0" name="bottom"/>
+  <anchor x="738" y="1556" name="top"/>
+  <outline>
+    <contour>
+      <point x="333" y="0" type="line"/>
+      <point x="481" y="0" type="line"/>
+      <point x="599" y="553" type="line"/>
+      <point x="909" y="553" type="line"/>
+      <point x="939" y="690" type="line"/>
+      <point x="629" y="690" type="line"/>
+      <point x="672" y="890" type="line"/>
+      <point x="981" y="890" type="line"/>
+      <point x="1010" y="1027" type="line"/>
+      <point x="700" y="1027" type="line"/>
+      <point x="812" y="1556" type="line"/>
+      <point x="665" y="1556" type="line"/>
+      <point x="552" y="1027" type="line"/>
+      <point x="243" y="1027" type="line"/>
+      <point x="214" y="890" type="line"/>
+      <point x="523" y="890" type="line"/>
+      <point x="481" y="690" type="line"/>
+      <point x="172" y="690" type="line"/>
+      <point x="141" y="553" type="line"/>
+      <point x="450" y="553" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

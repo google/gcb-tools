@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="squaredfourdotpunctuation" format="2">
+  <advance width="1668"/>
+  <unicode hex="2E2C"/>
+  <outline>
+    <contour>
+      <point x="1456" y="1251" type="curve"/>
+      <point x="1525" y="1251"/>
+      <point x="1566" y="1289"/>
+      <point x="1566" y="1369" type="curve"/>
+      <point x="1566" y="1452"/>
+      <point x="1525" y="1490"/>
+      <point x="1456" y="1490" type="curve"/>
+      <point x="1389" y="1490"/>
+      <point x="1347" y="1452"/>
+      <point x="1347" y="1369" type="curve"/>
+      <point x="1347" y="1289"/>
+      <point x="1389" y="1251"/>
+    </contour>
+    <contour>
+      <point x="212" y="-27" type="curve"/>
+      <point x="281" y="-27"/>
+      <point x="323" y="10"/>
+      <point x="323" y="91" type="curve"/>
+      <point x="323" y="173"/>
+      <point x="281" y="211"/>
+      <point x="212" y="211" type="curve"/>
+      <point x="146" y="211"/>
+      <point x="104" y="173"/>
+      <point x="104" y="91" type="curve"/>
+      <point x="104" y="10"/>
+      <point x="146" y="-27"/>
+    </contour>
+    <contour>
+      <point x="1432" y="-27" type="curve"/>
+      <point x="1501" y="-27"/>
+      <point x="1542" y="10"/>
+      <point x="1542" y="91" type="curve"/>
+      <point x="1542" y="173"/>
+      <point x="1501" y="211"/>
+      <point x="1432" y="211" type="curve"/>
+      <point x="1366" y="211"/>
+      <point x="1324" y="173"/>
+      <point x="1324" y="91" type="curve"/>
+      <point x="1324" y="10"/>
+      <point x="1366" y="-27"/>
+    </contour>
+    <contour>
+      <point x="212" y="1251" type="curve"/>
+      <point x="281" y="1251"/>
+      <point x="323" y="1289"/>
+      <point x="323" y="1369" type="curve"/>
+      <point x="323" y="1452"/>
+      <point x="281" y="1490"/>
+      <point x="212" y="1490" type="curve"/>
+      <point x="146" y="1490"/>
+      <point x="104" y="1452"/>
+      <point x="104" y="1369" type="curve"/>
+      <point x="104" y="1289"/>
+      <point x="146" y="1251"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

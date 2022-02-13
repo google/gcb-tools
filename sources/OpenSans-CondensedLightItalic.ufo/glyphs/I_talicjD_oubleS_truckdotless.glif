@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ItalicjDoubleStruckdotless" format="2">
+  <advance width="702"/>
+  <anchor x="3" y="-489" name="bottom"/>
+  <anchor x="413" y="1098" name="top"/>
+  <outline>
+    <contour>
+      <point x="-193" y="-492" type="curve"/>
+      <point x="151" y="-492"/>
+      <point x="308" y="-225"/>
+      <point x="345" y="-51" type="curve"/>
+      <point x="593" y="1098" type="line"/>
+      <point x="237" y="1098" type="line"/>
+      <point x="-42" y="-211" type="line"/>
+      <point x="-68" y="-340"/>
+      <point x="-138" y="-379"/>
+      <point x="-212" y="-379" type="curve"/>
+      <point x="-259" y="-379"/>
+      <point x="-296" y="-367"/>
+      <point x="-335" y="-350" type="curve"/>
+      <point x="-357" y="-459" type="line"/>
+      <point x="-302" y="-483"/>
+      <point x="-249" y="-492"/>
+    </contour>
+    <contour>
+      <point x="41" y="-334" type="curve"/>
+      <point x="322" y="989" type="line"/>
+      <point x="457" y="989" type="line"/>
+      <point x="242" y="-37" type="line"/>
+      <point x="207" y="-201"/>
+      <point x="123" y="-279"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string></string>
+    </dict>
+  </lib>
+</glyph>

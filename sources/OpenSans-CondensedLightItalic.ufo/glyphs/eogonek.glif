@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eogonek" format="2">
+  <advance width="711"/>
+  <unicode hex="0119"/>
+  <anchor x="153" y="-411" name="bottom"/>
+  <anchor x="470" y="1079" name="top"/>
+  <outline>
+    <contour>
+      <point x="365" y="-411" type="curve" smooth="yes"/>
+      <point x="402" y="-411"/>
+      <point x="432" y="-405"/>
+      <point x="456" y="-394" type="curve"/>
+      <point x="472" y="-325" type="line"/>
+      <point x="448" y="-330"/>
+      <point x="426" y="-334"/>
+      <point x="405" y="-334" type="curve" smooth="yes"/>
+      <point x="357" y="-334"/>
+      <point x="332" y="-308"/>
+      <point x="332" y="-254" type="curve" smooth="yes"/>
+      <point x="332" y="-162"/>
+      <point x="390" y="-65"/>
+      <point x="503" y="35" type="curve"/>
+      <point x="434" y="35" type="line"/>
+      <point x="283" y="-78"/>
+      <point x="237" y="-165"/>
+      <point x="237" y="-269" type="curve" smooth="yes"/>
+      <point x="237" y="-351"/>
+      <point x="281" y="-411"/>
+    </contour>
+    <component base="e"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>e</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>e</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

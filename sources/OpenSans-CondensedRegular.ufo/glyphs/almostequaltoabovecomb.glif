@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="almostequaltoabovecomb" format="2">
+  <unicode hex="034C"/>
+  <anchor x="2" y="1098" name="_top"/>
+  <anchor x="6" y="1731" name="top"/>
+  <outline>
+    <contour>
+      <point x="122" y="1530" type="curve" smooth="yes"/>
+      <point x="217" y="1530"/>
+      <point x="268" y="1598"/>
+      <point x="272" y="1731" type="curve"/>
+      <point x="190" y="1731" type="line"/>
+      <point x="186" y="1659"/>
+      <point x="171" y="1626"/>
+      <point x="125" y="1626" type="curve" smooth="yes"/>
+      <point x="58" y="1626"/>
+      <point x="-12" y="1730"/>
+      <point x="-112" y="1730" type="curve" smooth="yes"/>
+      <point x="-211" y="1730"/>
+      <point x="-259" y="1657"/>
+      <point x="-267" y="1528" type="curve"/>
+      <point x="-184" y="1528" type="line"/>
+      <point x="-178" y="1604"/>
+      <point x="-159" y="1634"/>
+      <point x="-116" y="1634" type="curve" smooth="yes"/>
+      <point x="-53" y="1634"/>
+      <point x="23" y="1530"/>
+    </contour>
+    <contour>
+      <point x="122" y="1271" type="curve" smooth="yes"/>
+      <point x="217" y="1271"/>
+      <point x="268" y="1341"/>
+      <point x="272" y="1474" type="curve"/>
+      <point x="190" y="1474" type="line"/>
+      <point x="186" y="1400"/>
+      <point x="171" y="1367"/>
+      <point x="125" y="1367" type="curve" smooth="yes"/>
+      <point x="58" y="1367"/>
+      <point x="-12" y="1472"/>
+      <point x="-112" y="1472" type="curve" smooth="yes"/>
+      <point x="-211" y="1472"/>
+      <point x="-259" y="1400"/>
+      <point x="-267" y="1271" type="curve"/>
+      <point x="-184" y="1271" type="line"/>
+      <point x="-178" y="1344"/>
+      <point x="-159" y="1375"/>
+      <point x="-116" y="1375" type="curve" smooth="yes"/>
+      <point x="-53" y="1375"/>
+      <point x="23" y="1271"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

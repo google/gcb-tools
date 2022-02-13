@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04A6" format="2">
+  <advance width="1305"/>
+  <unicode hex="04A6"/>
+  <anchor x="429" y="-502" name="bottom"/>
+  <anchor x="846" y="1462" name="top"/>
+  <outline>
+    <contour>
+      <point x="673" y="-502" type="curve"/>
+      <point x="1049" y="-502"/>
+      <point x="1170" y="75"/>
+      <point x="1170" y="423" type="curve"/>
+      <point x="1170" y="694"/>
+      <point x="1085" y="803"/>
+      <point x="909" y="803" type="curve"/>
+      <point x="866" y="803"/>
+      <point x="823" y="795"/>
+      <point x="782" y="782" type="curve"/>
+      <point x="927" y="1462" type="line"/>
+      <point x="313" y="1462" type="line"/>
+      <point x="2" y="0" type="line"/>
+      <point x="97" y="0" type="line"/>
+      <point x="390" y="1374" type="line"/>
+      <point x="814" y="1374" type="line"/>
+      <point x="521" y="0" type="line"/>
+      <point x="616" y="0" type="line"/>
+      <point x="763" y="694" type="line"/>
+      <point x="805" y="708"/>
+      <point x="846" y="715"/>
+      <point x="884" y="715" type="curve"/>
+      <point x="1017" y="715"/>
+      <point x="1073" y="636"/>
+      <point x="1073" y="424" type="curve"/>
+      <point x="1073" y="129"/>
+      <point x="979" y="-415"/>
+      <point x="674" y="-415" type="curve"/>
+      <point x="621" y="-415"/>
+      <point x="569" y="-403"/>
+      <point x="525" y="-381" type="curve"/>
+      <point x="525" y="-474" type="line"/>
+      <point x="565" y="-492"/>
+      <point x="613" y="-502"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

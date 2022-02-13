@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcomb.sc" format="2">
+  <advance width="1185"/>
+  <anchor x="593" y="1155" name="_top"/>
+  <anchor x="595" y="1602" name="top"/>
+  <outline>
+    <contour>
+      <point x="651" y="1602" type="curve"/>
+      <point x="533" y="1602" type="line"/>
+      <point x="479" y="1514"/>
+      <point x="367" y="1372"/>
+      <point x="295" y="1292" type="curve"/>
+      <point x="295" y="1275" type="line"/>
+      <point x="361" y="1275" type="line"/>
+      <point x="439" y="1344"/>
+      <point x="516" y="1430"/>
+      <point x="592" y="1514" type="curve"/>
+      <point x="659" y="1433"/>
+      <point x="740" y="1350"/>
+      <point x="823" y="1275" type="curve"/>
+      <point x="890" y="1275" type="line"/>
+      <point x="890" y="1292" type="line"/>
+      <point x="778" y="1415"/>
+      <point x="696" y="1522"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

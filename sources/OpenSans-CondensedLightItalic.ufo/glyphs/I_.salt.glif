@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I.salt" format="2">
+  <advance width="411"/>
+  <anchor x="91" y="0" name="bottom"/>
+  <anchor x="402" y="1462" name="top"/>
+  <anchor x="566" y="1462" name="topright"/>
+  <outline>
+    <contour>
+      <point x="-113" y="0" type="line"/>
+      <point x="246" y="0" type="line"/>
+      <point x="258" y="59" type="line"/>
+      <point x="130" y="75" type="line"/>
+      <point x="408" y="1386" type="line"/>
+      <point x="543" y="1403" type="line"/>
+      <point x="556" y="1462" type="line"/>
+      <point x="198" y="1462" type="line"/>
+      <point x="185" y="1403" type="line"/>
+      <point x="315" y="1386" type="line"/>
+      <point x="37" y="75" type="line"/>
+      <point x="-101" y="59" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

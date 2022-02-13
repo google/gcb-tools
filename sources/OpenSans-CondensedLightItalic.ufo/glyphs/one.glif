@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="one" format="2">
+  <advance width="739"/>
+  <unicode hex="0031"/>
+  <outline>
+    <contour>
+      <point x="230" y="0" type="line"/>
+      <point x="324" y="0" type="line"/>
+      <point x="633" y="1462" type="line"/>
+      <point x="541" y="1462" type="line"/>
+      <point x="226" y="1197" type="line"/>
+      <point x="275" y="1135" type="line"/>
+      <point x="453" y="1283" type="line" smooth="yes"/>
+      <point x="479" y="1304"/>
+      <point x="499" y="1324"/>
+      <point x="518" y="1344" type="curve"/>
+      <point x="496" y="1257"/>
+      <point x="487" y="1221"/>
+      <point x="475" y="1160" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Number</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Decimal Digit</string>
+    </dict>
+  </lib>
+</glyph>

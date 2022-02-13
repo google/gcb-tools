@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA671" format="2">
+  <unicode hex="A671"/>
+  <outline>
+    <contour>
+      <point x="-732" y="1207" type="line"/>
+      <point x="-595" y="1207" type="line"/>
+      <point x="-533" y="1497" type="line"/>
+      <point x="953" y="1497" type="line"/>
+      <point x="891" y="1207" type="line"/>
+      <point x="1027" y="1207" type="line"/>
+      <point x="1123" y="1659" type="line"/>
+      <point x="-636" y="1659" type="line"/>
+    </contour>
+    <contour>
+      <point x="-1113" y="-588" type="line"/>
+      <point x="646" y="-588" type="line"/>
+      <point x="743" y="-136" type="line"/>
+      <point x="606" y="-136" type="line"/>
+      <point x="544" y="-426" type="line"/>
+      <point x="-942" y="-426" type="line"/>
+      <point x="-880" y="-136" type="line"/>
+      <point x="-1016" y="-136" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Enclosing</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="afii08941" format="2">
+  <advance width="824"/>
+  <unicode hex="20A4"/>
+  <outline>
+    <contour>
+      <point x="518" y="1483" type="curve" smooth="yes"/>
+      <point x="315" y="1483"/>
+      <point x="240" y="1337"/>
+      <point x="240" y="1112" type="curve" smooth="yes"/>
+      <point x="240" y="892" type="line"/>
+      <point x="80" y="892" type="line"/>
+      <point x="80" y="814" type="line"/>
+      <point x="240" y="814" type="line"/>
+      <point x="240" y="616" type="line"/>
+      <point x="80" y="616" type="line"/>
+      <point x="80" y="538" type="line"/>
+      <point x="240" y="538" type="line"/>
+      <point x="240" y="242"/>
+      <point x="219" y="138"/>
+      <point x="84" y="83" type="curve"/>
+      <point x="84" y="0" type="line"/>
+      <point x="745" y="0" type="line"/>
+      <point x="745" y="90" type="line"/>
+      <point x="206" y="90" type="line"/>
+      <point x="313" y="153"/>
+      <point x="335" y="258"/>
+      <point x="337" y="538" type="curve"/>
+      <point x="585" y="538" type="line"/>
+      <point x="585" y="616" type="line"/>
+      <point x="337" y="616" type="line"/>
+      <point x="337" y="814" type="line"/>
+      <point x="585" y="814" type="line"/>
+      <point x="585" y="892" type="line"/>
+      <point x="337" y="892" type="line"/>
+      <point x="337" y="1104" type="line" smooth="yes"/>
+      <point x="337" y="1306"/>
+      <point x="392" y="1393"/>
+      <point x="521" y="1393" type="curve" smooth="yes"/>
+      <point x="572" y="1393"/>
+      <point x="625" y="1378"/>
+      <point x="685" y="1330" type="curve"/>
+      <point x="729" y="1405" type="line"/>
+      <point x="668" y="1457"/>
+      <point x="602" y="1483"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Currency</string>
+    </dict>
+  </lib>
+</glyph>

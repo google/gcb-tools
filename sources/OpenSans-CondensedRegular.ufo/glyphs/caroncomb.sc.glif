@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="caroncomb.sc" format="2">
+  <advance width="843"/>
+  <anchor x="420" y="1166" name="_top"/>
+  <anchor x="424" y="1612" name="top"/>
+  <outline>
+    <contour>
+      <point x="660" y="1612" type="line"/>
+      <point x="559" y="1612" type="line"/>
+      <point x="510" y="1549"/>
+      <point x="466" y="1473"/>
+      <point x="419" y="1396" type="curve"/>
+      <point x="381" y="1469"/>
+      <point x="333" y="1545"/>
+      <point x="283" y="1612" type="curve"/>
+      <point x="179" y="1612" type="line"/>
+      <point x="179" y="1592" type="line"/>
+      <point x="242" y="1480"/>
+      <point x="294" y="1372"/>
+      <point x="327" y="1285" type="curve"/>
+      <point x="514" y="1285" type="line"/>
+      <point x="550" y="1377"/>
+      <point x="616" y="1510"/>
+      <point x="660" y="1592" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guilsinglright.sc" format="2">
+  <advance width="436"/>
+  <outline>
+    <contour>
+      <point x="57" y="135" type="line"/>
+      <point x="121" y="96" type="line"/>
+      <point x="376" y="409" type="line"/>
+      <point x="376" y="431" type="line"/>
+      <point x="121" y="746" type="line"/>
+      <point x="57" y="704" type="line"/>
+      <point x="265" y="419" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

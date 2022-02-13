@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniAB45" format="2">
+  <advance width="1268"/>
+  <unicode hex="AB45"/>
+  <outline>
+    <contour>
+      <point x="635" y="674" type="curve" smooth="yes"/>
+      <point x="336" y="674"/>
+      <point x="165" y="538"/>
+      <point x="165" y="252" type="curve" smooth="yes"/>
+      <point x="165" y="0" type="line"/>
+      <point x="331" y="0" type="line"/>
+      <point x="331" y="244" type="line" smooth="yes"/>
+      <point x="331" y="444"/>
+      <point x="428" y="535"/>
+      <point x="635" y="535" type="curve" smooth="yes"/>
+      <point x="840" y="535"/>
+      <point x="937" y="444"/>
+      <point x="937" y="244" type="curve" smooth="yes"/>
+      <point x="937" y="0" type="line"/>
+      <point x="1103" y="0" type="line"/>
+      <point x="1103" y="252" type="line" smooth="yes"/>
+      <point x="1103" y="538"/>
+      <point x="931" y="674"/>
+    </contour>
+    <contour>
+      <point x="714" y="596" type="line"/>
+      <point x="714" y="1098" type="line"/>
+      <point x="548" y="1098" type="line"/>
+      <point x="548" y="596" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

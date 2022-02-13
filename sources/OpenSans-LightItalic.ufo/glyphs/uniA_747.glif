@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA747" format="2">
+  <advance width="590"/>
+  <unicode hex="A747"/>
+  <outline>
+    <contour>
+      <point x="191" y="0" type="line"/>
+      <point x="291" y="0" type="line"/>
+      <point x="486" y="920" type="line"/>
+      <point x="374" y="864" type="line"/>
+    </contour>
+    <contour>
+      <point x="223" y="782" type="line"/>
+      <point x="473" y="863" type="line"/>
+      <point x="488" y="931" type="line"/>
+      <point x="237" y="850" type="line"/>
+    </contour>
+    <contour>
+      <point x="227" y="805" type="line"/>
+      <point x="341" y="869" type="line"/>
+      <point x="486" y="1556" type="line"/>
+      <point x="386" y="1556" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

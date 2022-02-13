@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni2E42" format="2">
+  <advance width="849"/>
+  <unicode hex="2E42"/>
+  <outline>
+    <contour>
+      <point x="211" y="-264" type="curve"/>
+      <point x="335" y="-264" type="line"/>
+      <point x="291" y="-110"/>
+      <point x="273" y="92"/>
+      <point x="264" y="238" type="curve"/>
+      <point x="94" y="238" type="line"/>
+      <point x="75" y="215" type="line"/>
+      <point x="97" y="72"/>
+      <point x="143" y="-116"/>
+    </contour>
+    <contour>
+      <point x="551" y="-264" type="curve"/>
+      <point x="672" y="-264" type="line"/>
+      <point x="629" y="-110"/>
+      <point x="613" y="92"/>
+      <point x="605" y="238" type="curve"/>
+      <point x="433" y="238" type="line"/>
+      <point x="417" y="215" type="line"/>
+      <point x="439" y="72"/>
+      <point x="485" y="-116"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Quote</string>
+    </dict>
+  </lib>
+</glyph>

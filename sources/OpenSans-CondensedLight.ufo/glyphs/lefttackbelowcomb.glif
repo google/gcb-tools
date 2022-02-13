@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lefttackbelowcomb" format="2">
+  <unicode hex="0318"/>
+  <anchor x="-7" y="0" name="_bottom"/>
+  <anchor x="-5" y="-430" name="bottom"/>
+  <outline>
+    <contour>
+      <point x="-116" y="-217" type="line"/>
+      <point x="-116" y="-285" type="line"/>
+      <point x="34" y="-285" type="line"/>
+      <point x="34" y="-430" type="line"/>
+      <point x="103" y="-430" type="line"/>
+      <point x="103" y="-74" type="line"/>
+      <point x="34" y="-74" type="line"/>
+      <point x="34" y="-217" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Nonspacing</string>
+    </dict>
+  </lib>
+</glyph>

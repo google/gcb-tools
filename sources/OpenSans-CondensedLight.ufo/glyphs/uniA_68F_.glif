@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA68F" format="2">
+  <advance width="909"/>
+  <unicode hex="A68F"/>
+  <outline>
+    <contour>
+      <point x="281" y="-410" type="curve" smooth="yes"/>
+      <point x="580" y="-410" type="line" smooth="yes"/>
+      <point x="798" y="-410"/>
+      <point x="882" y="-301"/>
+      <point x="882" y="-149" type="curve" smooth="yes"/>
+      <point x="882" y="-39"/>
+      <point x="833" y="31"/>
+      <point x="738" y="64" type="curve"/>
+      <point x="738" y="1087" type="line"/>
+      <point x="642" y="1087" type="line"/>
+      <point x="642" y="86" type="line"/>
+      <point x="237" y="86" type="line"/>
+      <point x="237" y="1087" type="line"/>
+      <point x="142" y="1087" type="line"/>
+      <point x="142" y="0" type="line"/>
+      <point x="606" y="0" type="line" smooth="yes"/>
+      <point x="740" y="0"/>
+      <point x="793" y="-62"/>
+      <point x="793" y="-158" type="curve" smooth="yes"/>
+      <point x="793" y="-251"/>
+      <point x="731" y="-336"/>
+      <point x="573" y="-336" type="curve" smooth="yes"/>
+      <point x="289" y="-336" type="line" smooth="yes"/>
+      <point x="212" y="-336"/>
+      <point x="194" y="-298"/>
+      <point x="194" y="-266" type="curve" smooth="yes"/>
+      <point x="194" y="-228"/>
+      <point x="214" y="-196"/>
+      <point x="285" y="-196" type="curve" smooth="yes"/>
+      <point x="558" y="-196" type="line"/>
+      <point x="558" y="-126" type="line"/>
+      <point x="279" y="-126" type="line" smooth="yes"/>
+      <point x="173" y="-126"/>
+      <point x="113" y="-176"/>
+      <point x="113" y="-266" type="curve" smooth="yes"/>
+      <point x="113" y="-357"/>
+      <point x="176" y="-410"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

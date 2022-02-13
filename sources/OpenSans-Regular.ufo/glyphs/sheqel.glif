@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sheqel" format="2">
+  <advance width="1608"/>
+  <unicode hex="20AA"/>
+  <outline>
+    <contour>
+      <point x="174" y="0" type="line"/>
+      <point x="328" y="0" type="line"/>
+      <point x="328" y="1331" type="line"/>
+      <point x="616" y="1331" type="line" smooth="yes"/>
+      <point x="801" y="1331"/>
+      <point x="909" y="1218"/>
+      <point x="909" y="1009" type="curve" smooth="yes"/>
+      <point x="909" y="373" type="line"/>
+      <point x="1061" y="373" type="line"/>
+      <point x="1061" y="1010" type="line" smooth="yes"/>
+      <point x="1061" y="1280"/>
+      <point x="922" y="1462"/>
+      <point x="634" y="1462" type="curve" smooth="yes"/>
+      <point x="174" y="1462" type="line"/>
+    </contour>
+    <contour>
+      <point x="541" y="1090" type="line"/>
+      <point x="541" y="0" type="line"/>
+      <point x="986" y="0" type="line" smooth="yes"/>
+      <point x="1311" y="0"/>
+      <point x="1442" y="197"/>
+      <point x="1442" y="456" type="curve" smooth="yes"/>
+      <point x="1442" y="1462" type="line"/>
+      <point x="1289" y="1462" type="line"/>
+      <point x="1289" y="456" type="line" smooth="yes"/>
+      <point x="1289" y="247"/>
+      <point x="1181" y="131"/>
+      <point x="973" y="131" type="curve" smooth="yes"/>
+      <point x="695" y="131" type="line"/>
+      <point x="695" y="1090" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Currency</string>
+    </dict>
+  </lib>
+</glyph>

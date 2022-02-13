@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniAB47" format="2">
+  <advance width="630"/>
+  <unicode hex="AB47"/>
+  <outline>
+    <contour>
+      <point x="63" y="0" type="line"/>
+      <point x="164" y="0" type="line"/>
+      <point x="275" y="529" type="line" smooth="yes"/>
+      <point x="326" y="771"/>
+      <point x="490" y="988"/>
+      <point x="674" y="1010" type="curve"/>
+      <point x="693" y="1106" type="line"/>
+      <point x="527" y="1093"/>
+      <point x="408" y="945"/>
+      <point x="339" y="834" type="curve"/>
+      <point x="333" y="834" type="line"/>
+      <point x="377" y="1087" type="line"/>
+      <point x="294" y="1087" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

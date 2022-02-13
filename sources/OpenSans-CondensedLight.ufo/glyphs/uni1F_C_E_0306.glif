@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1FCE0306" format="2">
+  <advance width="633"/>
+  <anchor x="315" y="1087" name="_top"/>
+  <anchor x="316" y="1795" name="top"/>
+  <outline>
+    <contour>
+      <point x="310" y="1210" type="curve" smooth="yes"/>
+      <point x="440" y="1210"/>
+      <point x="517" y="1293"/>
+      <point x="525" y="1433" type="curve"/>
+      <point x="463" y="1433" type="line"/>
+      <point x="455" y="1339"/>
+      <point x="405" y="1280"/>
+      <point x="311" y="1280" type="curve" smooth="yes"/>
+      <point x="218" y="1280"/>
+      <point x="166" y="1334"/>
+      <point x="158" y="1433" type="curve"/>
+      <point x="94" y="1433" type="line"/>
+      <point x="101" y="1286"/>
+      <point x="183" y="1210"/>
+    </contour>
+    <contour>
+      <point x="184" y="1488" type="line"/>
+      <point x="271" y="1494"/>
+      <point x="331" y="1584"/>
+      <point x="331" y="1693" type="curve" smooth="yes"/>
+      <point x="331" y="1770"/>
+      <point x="295" y="1795"/>
+      <point x="258" y="1795" type="curve" smooth="yes"/>
+      <point x="219" y="1795"/>
+      <point x="194" y="1765"/>
+      <point x="194" y="1719" type="curve" smooth="yes"/>
+      <point x="194" y="1664"/>
+      <point x="226" y="1642"/>
+      <point x="263" y="1642" type="curve"/>
+      <point x="260" y="1592"/>
+      <point x="224" y="1545"/>
+      <point x="184" y="1540" type="curve"/>
+    </contour>
+    <contour>
+      <point x="349" y="1489" type="line"/>
+      <point x="399" y="1489" type="line"/>
+      <point x="447" y="1568"/>
+      <point x="502" y="1677"/>
+      <point x="532" y="1768" type="curve"/>
+      <point x="532" y="1785" type="line"/>
+      <point x="434" y="1785" type="line"/>
+      <point x="412" y="1687"/>
+      <point x="387" y="1606"/>
+      <point x="349" y="1514" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>greek</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Spacing</string>
+    </dict>
+  </lib>
+</glyph>

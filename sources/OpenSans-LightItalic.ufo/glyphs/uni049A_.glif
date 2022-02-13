@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni049A" format="2">
+  <advance width="1163"/>
+  <unicode hex="049A"/>
+  <anchor x="392" y="-357" name="bottom"/>
+  <anchor x="779" y="1462" name="top"/>
+  <outline>
+    <contour>
+      <point x="951" y="-357" type="line"/>
+      <point x="1049" y="-357" type="line"/>
+      <point x="1147" y="93" type="line"/>
+      <point x="966" y="93" type="line"/>
+      <point x="469" y="743" type="line"/>
+      <point x="1278" y="1462" type="line"/>
+      <point x="1146" y="1462" type="line"/>
+      <point x="357" y="757" type="line"/>
+      <point x="508" y="1462" type="line"/>
+      <point x="406" y="1462" type="line"/>
+      <point x="96" y="0" type="line"/>
+      <point x="199" y="0" type="line"/>
+      <point x="354" y="741" type="line"/>
+      <point x="909" y="0" type="line"/>
+      <point x="1027" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

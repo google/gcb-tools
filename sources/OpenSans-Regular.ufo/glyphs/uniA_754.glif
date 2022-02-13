@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA754" format="2">
+  <advance width="1726"/>
+  <unicode hex="A754"/>
+  <outline>
+    <contour>
+      <point x="603" y="577" type="curve" smooth="yes"/>
+      <point x="766" y="577" type="line"/>
+      <point x="766" y="720" type="line"/>
+      <point x="621" y="720" type="line" smooth="yes"/>
+      <point x="501" y="720"/>
+      <point x="446" y="781"/>
+      <point x="446" y="931" type="curve" smooth="yes"/>
+      <point x="446" y="1185" type="line" smooth="yes"/>
+      <point x="446" y="1378"/>
+      <point x="358" y="1483"/>
+      <point x="174" y="1483" type="curve" smooth="yes"/>
+      <point x="111" y="1483"/>
+      <point x="58" y="1470"/>
+      <point x="27" y="1454" type="curve"/>
+      <point x="27" y="1320" type="line"/>
+      <point x="61" y="1330"/>
+      <point x="102" y="1340"/>
+      <point x="148" y="1340" type="curve" smooth="yes"/>
+      <point x="235" y="1340"/>
+      <point x="277" y="1285"/>
+      <point x="277" y="1169" type="curve" smooth="yes"/>
+      <point x="277" y="923" type="line" smooth="yes"/>
+      <point x="277" y="706"/>
+      <point x="391" y="577"/>
+    </contour>
+    <component base="P" xOffset="494"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>P</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=P</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

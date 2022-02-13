@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA782" format="2">
+  <advance width="1005"/>
+  <unicode hex="A782"/>
+  <outline>
+    <contour>
+      <point x="-81" y="-403" type="line"/>
+      <point x="71" y="-403" type="line"/>
+      <point x="372" y="1033" type="line" smooth="yes"/>
+      <point x="413" y="1221"/>
+      <point x="510" y="1344"/>
+      <point x="656" y="1344" type="curve" smooth="yes"/>
+      <point x="749" y="1344"/>
+      <point x="797" y="1297"/>
+      <point x="797" y="1206" type="curve" smooth="yes"/>
+      <point x="797" y="1164"/>
+      <point x="789" y="1117"/>
+      <point x="778" y="1065" type="curve" smooth="yes"/>
+      <point x="609" y="272" type="line" smooth="yes"/>
+      <point x="598" y="222"/>
+      <point x="591" y="170"/>
+      <point x="591" y="139" type="curve" smooth="yes"/>
+      <point x="591" y="38"/>
+      <point x="648" y="-20"/>
+      <point x="749" y="-20" type="curve" smooth="yes"/>
+      <point x="795" y="-20"/>
+      <point x="843" y="-9"/>
+      <point x="883" y="10" type="curve"/>
+      <point x="883" y="140" type="line"/>
+      <point x="851" y="128"/>
+      <point x="826" y="120"/>
+      <point x="798" y="120" type="curve" smooth="yes"/>
+      <point x="766" y="120"/>
+      <point x="748" y="141"/>
+      <point x="748" y="178" type="curve" smooth="yes"/>
+      <point x="748" y="203"/>
+      <point x="752" y="233"/>
+      <point x="761" y="268" type="curve" smooth="yes"/>
+      <point x="931" y="1073" type="line" smooth="yes"/>
+      <point x="944" y="1128"/>
+      <point x="954" y="1196"/>
+      <point x="954" y="1245" type="curve" smooth="yes"/>
+      <point x="954" y="1395"/>
+      <point x="868" y="1483"/>
+      <point x="719" y="1483" type="curve" smooth="yes"/>
+      <point x="623" y="1483"/>
+      <point x="516" y="1436"/>
+      <point x="438" y="1326" type="curve"/>
+      <point x="433" y="1326" type="line"/>
+      <point x="441" y="1462" type="line"/>
+      <point x="312" y="1462" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

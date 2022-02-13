@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="PDoubleStruck" format="2">
+  <advance width="1341"/>
+  <unicode hex="2119"/>
+  <outline>
+    <contour>
+      <point x="124" y="0" type="line"/>
+      <point x="478" y="0" type="line"/>
+      <point x="478" y="621" type="line"/>
+      <point x="681" y="621" type="line"/>
+      <point x="933" y="621"/>
+      <point x="1162" y="799"/>
+      <point x="1162" y="1053" type="curve"/>
+      <point x="1162" y="1300"/>
+      <point x="1002" y="1462"/>
+      <point x="654" y="1462" type="curve"/>
+      <point x="124" y="1462" type="line"/>
+    </contour>
+    <contour>
+      <point x="232" y="109" type="line"/>
+      <point x="232" y="1354" type="line"/>
+      <point x="370" y="1354" type="line"/>
+      <point x="370" y="109" type="line"/>
+    </contour>
+    <contour>
+      <point x="478" y="729" type="line"/>
+      <point x="478" y="1354" type="line"/>
+      <point x="763" y="1354" type="line"/>
+      <point x="763" y="729" type="line"/>
+    </contour>
+    <contour>
+      <point x="873" y="764" type="curve"/>
+      <point x="873" y="1329" type="line"/>
+      <point x="984" y="1292"/>
+      <point x="1043" y="1202"/>
+      <point x="1043" y="1053" type="curve"/>
+      <point x="1043" y="889"/>
+      <point x="972" y="809"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

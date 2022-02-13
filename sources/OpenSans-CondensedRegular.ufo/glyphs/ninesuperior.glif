@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ninesuperior" format="2">
+  <advance width="637"/>
+  <unicode hex="2079"/>
+  <outline>
+    <contour>
+      <point x="309" y="1747" type="curve" smooth="yes"/>
+      <point x="150" y="1747"/>
+      <point x="54" y="1622"/>
+      <point x="54" y="1445" type="curve" smooth="yes"/>
+      <point x="54" y="1280"/>
+      <point x="130" y="1167"/>
+      <point x="268" y="1167" type="curve" smooth="yes"/>
+      <point x="347" y="1167"/>
+      <point x="408" y="1211"/>
+      <point x="441" y="1274" type="curve"/>
+      <point x="449" y="1274" type="line"/>
+      <point x="438" y="1049"/>
+      <point x="363" y="942"/>
+      <point x="232" y="942" type="curve" smooth="yes"/>
+      <point x="179" y="942"/>
+      <point x="138" y="948"/>
+      <point x="112" y="959" type="curve"/>
+      <point x="112" y="846" type="line"/>
+      <point x="141" y="836"/>
+      <point x="178" y="831"/>
+      <point x="224" y="831" type="curve" smooth="yes"/>
+      <point x="493" y="831"/>
+      <point x="569" y="1047"/>
+      <point x="569" y="1362" type="curve" smooth="yes"/>
+      <point x="569" y="1571"/>
+      <point x="494" y="1747"/>
+    </contour>
+    <contour>
+      <point x="307" y="1637" type="curve" smooth="yes"/>
+      <point x="398" y="1637"/>
+      <point x="446" y="1533"/>
+      <point x="446" y="1427" type="curve" smooth="yes"/>
+      <point x="446" y="1336"/>
+      <point x="385" y="1266"/>
+      <point x="301" y="1266" type="curve" smooth="yes"/>
+      <point x="223" y="1266"/>
+      <point x="178" y="1336"/>
+      <point x="178" y="1448" type="curve" smooth="yes"/>
+      <point x="178" y="1567"/>
+      <point x="229" y="1637"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Number</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Small</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA79A" format="2">
+  <advance width="979"/>
+  <unicode hex="A79A"/>
+  <outline>
+    <contour>
+      <point x="319" y="-20" type="curve" smooth="yes"/>
+      <point x="438" y="-20"/>
+      <point x="529" y="48"/>
+      <point x="595" y="137" type="curve"/>
+      <point x="601" y="137" type="line"/>
+      <point x="588" y="0" type="line"/>
+      <point x="711" y="0" type="line"/>
+      <point x="1020" y="1462" type="line"/>
+      <point x="897" y="1462" type="line"/>
+      <point x="850" y="1316" type="line"/>
+      <point x="844" y="1316" type="line"/>
+      <point x="807" y="1422"/>
+      <point x="729" y="1483"/>
+      <point x="596" y="1483" type="curve" smooth="yes"/>
+      <point x="348" y="1483"/>
+      <point x="204" y="1262"/>
+      <point x="204" y="1048" type="curve" smooth="yes"/>
+      <point x="204" y="903"/>
+      <point x="252" y="813"/>
+      <point x="344" y="772" type="curve"/>
+      <point x="342" y="764" type="line"/>
+      <point x="136" y="730"/>
+      <point x="15" y="550"/>
+      <point x="15" y="321" type="curve" smooth="yes"/>
+      <point x="15" y="102"/>
+      <point x="128" y="-20"/>
+    </contour>
+    <contour>
+      <point x="358" y="118" type="curve" smooth="yes"/>
+      <point x="242" y="118"/>
+      <point x="174" y="188"/>
+      <point x="174" y="332" type="curve" smooth="yes"/>
+      <point x="174" y="523"/>
+      <point x="272" y="691"/>
+      <point x="475" y="691" type="curve" smooth="yes"/>
+      <point x="534" y="691" type="line"/>
+      <point x="564" y="826" type="line"/>
+      <point x="518" y="826" type="line" smooth="yes"/>
+      <point x="417" y="826"/>
+      <point x="356" y="898"/>
+      <point x="356" y="1042" type="curve" smooth="yes"/>
+      <point x="356" y="1194"/>
+      <point x="443" y="1346"/>
+      <point x="598" y="1346" type="curve" smooth="yes"/>
+      <point x="720" y="1346"/>
+      <point x="778" y="1258"/>
+      <point x="778" y="1138" type="curve" smooth="yes"/>
+      <point x="778" y="1067"/>
+      <point x="769" y="988"/>
+      <point x="753" y="915" type="curve" smooth="yes"/>
+      <point x="665" y="498" type="line" smooth="yes"/>
+      <point x="625" y="301"/>
+      <point x="512" y="118"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

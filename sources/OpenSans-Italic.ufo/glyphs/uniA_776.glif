@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA776" format="2">
+  <advance width="1452"/>
+  <unicode hex="A776"/>
+  <outline>
+    <contour>
+      <point x="733" y="-319" type="line"/>
+      <point x="861" y="-319" type="line"/>
+      <point x="1313" y="453" type="line"/>
+      <point x="1187" y="453" type="line"/>
+    </contour>
+    <contour>
+      <point x="766" y="0" type="line"/>
+      <point x="1318" y="0" type="line"/>
+      <point x="1346" y="137" type="line"/>
+      <point x="795" y="137" type="line"/>
+    </contour>
+    <component base="uni0280" xOffset="1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>uni0280</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

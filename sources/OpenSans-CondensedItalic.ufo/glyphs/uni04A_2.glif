@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04A2" format="2">
+  <advance width="998"/>
+  <unicode hex="04A2"/>
+  <anchor x="300" y="-387" name="bottom"/>
+  <anchor x="692" y="1462" name="top"/>
+  <outline>
+    <contour>
+      <point x="606" y="-387" type="line"/>
+      <point x="754" y="-387" type="line"/>
+      <point x="868" y="137" type="line"/>
+      <point x="740" y="137" type="line"/>
+      <point x="1023" y="1462" type="line"/>
+      <point x="871" y="1462" type="line"/>
+      <point x="737" y="835" type="line"/>
+      <point x="329" y="835" type="line"/>
+      <point x="462" y="1462" type="line"/>
+      <point x="310" y="1462" type="line"/>
+      <point x="0" y="0" type="line"/>
+      <point x="152" y="0" type="line"/>
+      <point x="299" y="696" type="line"/>
+      <point x="707" y="696" type="line"/>
+      <point x="560" y="0" type="line"/>
+      <point x="688" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>cyrillic</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

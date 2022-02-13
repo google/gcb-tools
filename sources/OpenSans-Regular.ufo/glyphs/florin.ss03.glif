@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="florin.ss03" format="2">
+  <advance width="839"/>
+  <anchor x="246" y="0" name="bottom"/>
+  <anchor x="658" y="1567" name="top"/>
+  <anchor x="916" y="1567" name="topright"/>
+  <outline>
+    <contour>
+      <point x="263" y="-31" type="curve" smooth="yes"/>
+      <point x="451" y="-31"/>
+      <point x="541" y="92"/>
+      <point x="541" y="299" type="curve" smooth="yes"/>
+      <point x="541" y="966" type="line"/>
+      <point x="813" y="966" type="line"/>
+      <point x="813" y="1096" type="line"/>
+      <point x="541" y="1096" type="line"/>
+      <point x="541" y="1176" type="line" smooth="yes"/>
+      <point x="541" y="1351"/>
+      <point x="599" y="1430"/>
+      <point x="726" y="1430" type="curve" smooth="yes"/>
+      <point x="784" y="1430"/>
+      <point x="844" y="1414"/>
+      <point x="889" y="1400" type="curve"/>
+      <point x="932" y="1531" type="line"/>
+      <point x="879" y="1549"/>
+      <point x="808" y="1567"/>
+      <point x="724" y="1567" type="curve" smooth="yes"/>
+      <point x="500" y="1567"/>
+      <point x="375" y="1450"/>
+      <point x="375" y="1174" type="curve" smooth="yes"/>
+      <point x="375" y="1101" type="line"/>
+      <point x="180" y="1046" type="line"/>
+      <point x="180" y="966" type="line"/>
+      <point x="375" y="966" type="line"/>
+      <point x="375" y="294" type="line" smooth="yes"/>
+      <point x="375" y="157"/>
+      <point x="326" y="108"/>
+      <point x="245" y="108" type="curve" smooth="yes"/>
+      <point x="177" y="108"/>
+      <point x="124" y="153"/>
+      <point x="124" y="244" type="curve" smooth="yes"/>
+      <point x="124" y="263"/>
+      <point x="126" y="279"/>
+      <point x="129" y="292" type="curve"/>
+      <point x="-13" y="324" type="line"/>
+      <point x="-22" y="293"/>
+      <point x="-25" y="261"/>
+      <point x="-25" y="232" type="curve" smooth="yes"/>
+      <point x="-25" y="72"/>
+      <point x="88" y="-31"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Symbol</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>f</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Currency</string>
+    </dict>
+  </lib>
+</glyph>

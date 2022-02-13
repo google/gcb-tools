@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hungarumlautcomb.sc" format="2">
+  <advance width="823"/>
+  <anchor x="380" y="1166" name="_top"/>
+  <anchor x="467" y="1609" name="top"/>
+  <outline>
+    <contour>
+      <point x="165" y="1285" type="line"/>
+      <point x="261" y="1285" type="line"/>
+      <point x="330" y="1361"/>
+      <point x="440" y="1485"/>
+      <point x="483" y="1591" type="curve"/>
+      <point x="483" y="1609" type="line"/>
+      <point x="303" y="1609" type="line"/>
+      <point x="265" y="1494"/>
+      <point x="208" y="1376"/>
+      <point x="165" y="1310" type="curve"/>
+    </contour>
+    <contour>
+      <point x="445" y="1285" type="line"/>
+      <point x="540" y="1285" type="line"/>
+      <point x="611" y="1361"/>
+      <point x="720" y="1485"/>
+      <point x="761" y="1591" type="curve"/>
+      <point x="761" y="1609" type="line"/>
+      <point x="582" y="1609" type="line"/>
+      <point x="546" y="1494"/>
+      <point x="487" y="1376"/>
+      <point x="445" y="1310" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Mark</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Smallcaps</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphenbullet" format="2">
+  <advance width="462"/>
+  <unicode hex="2043"/>
+  <outline>
+    <contour>
+      <point x="33" y="504" type="line"/>
+      <point x="399" y="504" type="line"/>
+      <point x="421" y="603" type="line"/>
+      <point x="54" y="603" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Punctuation</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string></string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="o" format="2">
+  <advance width="823"/>
+  <unicode hex="006F"/>
+  <anchor x="298" y="0" name="bottom"/>
+  <anchor x="444" y="543" name="center"/>
+  <anchor x="527" y="1082" name="top"/>
+  <anchor x="896" y="1082" name="topright"/>
+  <outline>
+    <contour>
+      <point x="308" y="-20" type="curve" smooth="yes"/>
+      <point x="626" y="-20"/>
+      <point x="771" y="448"/>
+      <point x="771" y="783" type="curve" smooth="yes"/>
+      <point x="771" y="998"/>
+      <point x="677" y="1116"/>
+      <point x="517" y="1116" type="curve" smooth="yes"/>
+      <point x="173" y="1116"/>
+      <point x="52" y="583"/>
+      <point x="52" y="308" type="curve" smooth="yes"/>
+      <point x="52" y="93"/>
+      <point x="146" y="-20"/>
+    </contour>
+    <contour>
+      <point x="323" y="109" type="curve" smooth="yes"/>
+      <point x="241" y="109"/>
+      <point x="200" y="178"/>
+      <point x="200" y="306" type="curve" smooth="yes"/>
+      <point x="200" y="524"/>
+      <point x="292" y="988"/>
+      <point x="499" y="988" type="curve" smooth="yes"/>
+      <point x="581" y="988"/>
+      <point x="621" y="915"/>
+      <point x="621" y="787" type="curve" smooth="yes"/>
+      <point x="621" y="531"/>
+      <point x="516" y="109"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Lowercase</string>
+    </dict>
+  </lib>
+</glyph>

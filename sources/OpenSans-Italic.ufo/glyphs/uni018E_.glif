@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni018E" format="2">
+  <advance width="1055"/>
+  <unicode hex="018E"/>
+  <anchor x="412" y="0" name="bottom"/>
+  <anchor x="723" y="1462" name="top"/>
+  <outline>
+    <contour>
+      <point x="10" y="0" type="line"/>
+      <point x="751" y="0" type="line"/>
+      <point x="1060" y="1462" type="line"/>
+      <point x="319" y="1462" type="line"/>
+      <point x="287" y="1312" type="line"/>
+      <point x="861" y="1312" type="line"/>
+      <point x="759" y="840" type="line"/>
+      <point x="222" y="840" type="line"/>
+      <point x="193" y="692" type="line"/>
+      <point x="729" y="692" type="line"/>
+      <point x="614" y="150" type="line"/>
+      <point x="42" y="150" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Uppercase</string>
+    </dict>
+  </lib>
+</glyph>

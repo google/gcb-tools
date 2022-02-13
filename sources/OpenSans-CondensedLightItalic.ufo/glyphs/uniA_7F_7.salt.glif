@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA7F7.salt" format="2">
+  <advance width="1468"/>
+  <outline>
+    <contour>
+      <point x="72" y="568" type="line"/>
+      <point x="137" y="568" type="line"/>
+      <point x="186" y="720" type="line"/>
+      <point x="1324" y="720" type="line"/>
+      <point x="1309" y="569" type="line"/>
+      <point x="1373" y="568" type="line"/>
+      <point x="1458" y="972" type="line"/>
+      <point x="1394" y="972" type="line"/>
+      <point x="1344" y="813" type="line"/>
+      <point x="205" y="813" type="line"/>
+      <point x="222" y="971" type="line"/>
+      <point x="158" y="972" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Letter</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string>latin</string>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Other</string>
+    </dict>
+  </lib>
+</glyph>
