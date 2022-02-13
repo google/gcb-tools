@@ -34,7 +34,7 @@ steps:
 
   # Deploy to Cloud Run
   - name: 'gcr.io/cloud-builders/gcloud'
-    args: ['run', 'deploy', 'badge-${SHORT_SHA}', 
+    args: ['run', 'deploy', 'badge', 
            '--image=us-central1-docker.pkg.dev/$PROJECT_ID/gcb-tools/badge:$SHORT_SHA', 
            '--region', 'us-central1', '--platform', 'managed']
 
