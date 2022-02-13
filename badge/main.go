@@ -17,6 +17,7 @@ package main
 
 import (
 	"context"
+	"errors"
 	"flag"
 	"log"
 	"net/http"
@@ -34,13 +35,20 @@ func main() {
 		"third_party/googlefonts/opensans/fonts/ttf/OpenSans-Regular.ttf",
 		"Path to OpenSans TTF Font file.")
 
+	flag.Parse()
 	cwd, _ := os.Getwd()
 	log.Printf("starting server in '%v' ...", cwd)
+
+	if _, err := os.Stat(*ttfPath); err != nil {
+		if errors.Is(err, os.ErrNotExist) {
+			log.Fatalf("Font File: '%s' does not exist.", *ttfPath)
+		}
+		log.Fatalf("Font File: '%s' does not exist.", *ttfPath)
+	}
 	ctx := context.Background()
 	c, err := cloudbuild.NewClient(ctx)
 	if err != nil {
-		// TODO: Handle error.
-		panic("Unable to create Cloud Build Client: " + err.Error())
+		log.Fatalf("Unable to create Cloud Build Client: %v", err.Error())
 	}
 	defer c.Close()
 

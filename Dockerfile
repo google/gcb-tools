@@ -23,11 +23,11 @@ WORKDIR /app
 # Retrieve application dependencies.
 # This allows the container build to reuse cached dependencies.
 # Expecting to copy go.mod and if present go.sum.
-COPY go.* ./
+COPY badge/go.* ./
 RUN go mod download
 
 # Copy local code to the container image.
-COPY . ./
+COPY badge/. ./
 
 # Build the binary.
 RUN go build -v -o server
@@ -42,7 +42,7 @@ RUN set -x && apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -
 
 # Copy the binary to the production image from the builder stage.
 COPY --from=builder /app/server /app/server
+COPY --from=builder /app/third_party/googlefonts/opensans/fonts/ttf/OpenSans-Regular.ttf /app/fonts/OpenSans-Regular.ttf
 
 # Run the web service on container startup.
-CMD ["/app/server"]
-
+CMD ["/app/server", "-ttf_path=/app/fonts/OpenSans-Regular.ttf"]
