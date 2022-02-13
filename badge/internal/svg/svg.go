@@ -21,6 +21,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"path/filepath"
 	"text/template"
 	"time"
 
@@ -131,8 +132,12 @@ func http500(err error) func(w http.ResponseWriter, r *http.Request) {
 }
 
 func loadFont(fontfile string) (*truetype.Font, error) {
-	fmt.Printf("Loading fontfile: '%q'\n", fontfile)
-	b, err := ioutil.ReadFile(fontfile)
+	f, err := filepath.Abs(fontfile)
+	if err != nil {
+		return nil, err
+	}
+	fmt.Printf("Loading fontfile: '%q'\n", f)
+	b, err := ioutil.ReadFile(f)
 	if err != nil {
 		return nil, err
 	}
